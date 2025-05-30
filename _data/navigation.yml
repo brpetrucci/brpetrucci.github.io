@@ -4,7 +4,7 @@ main:
   #  url: "https://www.dropbox.com/scl/fi/q6r56ejzfie6s00iyejh1/Kong_CV.pdf?rlkey=eb8llskjhju9elodad3e1dxsm&st=vw2brzou&dl=0"
 
   - title: "CV"
-    url: "https://sungsik-kong.github.io/cv/Kong_CV.pdf"
+    url: /cv/
     
   - title: "Research"
     url: /research/
@@ -18,10 +18,5 @@ main:
   - title: "Software"
     url: /software/  
 
-  - title: "Posts"
-    url: /posts/
-
-  - title: "Travel"
-    url: /travel/
-#- title: "Teaching"
-#url: /teaching/ 
+  - title: "News"
+    url: /news/
