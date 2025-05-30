@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Bruno do Rosario Petrucci"
-  avatar           : "brpetrucci.png"
+  avatar           : "brpetrucci_optimized.png"
   bio              : "PhD candidate at Iowa State University"
   location         : "Ames, IA"
   employer         :
@@ -104,7 +104,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : 
+  orcid            : 0000-0001-6334-8483
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
