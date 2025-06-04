@@ -40,13 +40,10 @@ I will soon be applying this workflow to a complete canid phylogenetic tree to t
 ## Phylogenetic inference using stratigraphic ranges
 
 The [fossilized birth-death process](https://revbayes.github.io/tutorials/fbd/fbd_specimen) has been the standard for combined-evidence analyses since its introduction in 2014.
-By modeling fossil sampling in parallel with speciation, extinction, and character evolution, researchers can build trees including both extant taxa and fossil specimens.
 The application of FBD specimen (as the original model as come to be known), a taxonomy-independent model, is challenging for a large number of groups, however.
-Canids, for example, exhibit high fossil count per species, with many fossils being fragmentary and assigned to a species through expert opinion.
-Because of these taxonomically-structured datasets, it is non-trivial to make decisions regarding the attachment of morphological data to fossil specimens, given that morphological matrices generally only contain scores for one specimen per species.
-This leads researchers to implement imperfect workarounds, such as setting one specimen for each species with fossil-age uncertainty set to the first and last appearances of that species (which could lead to [biased divergence times](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2020.00183/full), since the age uncertainty of each specimen is ignored).
-The introduction of the [stratigraphic-range FBD (SRFBD) process](https://www.sciencedirect.com/science/article/pii/S002251931830119X) equipped researchers with a model that better accommodates the taxonomic structure of paleontological datasets, by allowing fossil data to be structured as stratigraphic ranges for each species.
-The implementation of this model has been challenging, however, and only recently was the [first implementation](https://www.biorxiv.org/content/10.1101/2025.04.17.649084v1) made available in BEAST2.
+Because many paleontological datasets are taxonomically-structured, it is non-trivial to make decisions regarding the attachment of morphological data to multiple fossil specimens assigned to the same species.
+This leads researchers to implement imperfect workarounds, which could lead to [biased divergence times](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2020.00183/full).
+The introduction of the [stratigraphic-range FBD (SRFBD) process](https://www.sciencedirect.com/science/article/pii/S002251931830119X) equipped researchers with a model that better accommodates the taxonomic structure of paleontological datasets, by allowing fossil data to be structured as stratigraphic ranges for each species. 
 To better understand the pros and cons of each FBD model, and to obtain a high-quality phylogenetic tree for PCM applications (see above), I am working on an application of SRFBD to a dataset of extant and extinct canids.
 I will use both SRFBD and FBD specimen (with the oldest and youngest fossil occurrence for each species) to conduct combined-evidence analyses of Canidae, comparing the inferred topologies and divergence times with past studies analyzing the group.
 I will also conduct a short simulation study to gain an objective understanding of the differences in accuracy of the different models.
