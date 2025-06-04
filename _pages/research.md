@@ -20,22 +20,37 @@ I have recently enjoyed delving deep into the systematics of Canidae, however, a
 
 The vast majority of the uncountable species that have called Earth home have gone extinct.
 A very, very small percentage of those left remains that paleontologists can find, identify, and make available for the rest of us to study.
-These fossils represent the only direct data on the past of life on Earth, and... little intro 
+These fossils represent the only direct data on the past of life on Earth, and therefore provide researchers with the opportunity to test hypotheses about complex diversification patterns in deep-time.
 
 ## State-dependent diversification rate estimation with fossils
 
-...Integrating fossils into SSE models...
+Questions on the effect of traits on species diversification have been a mainstay of macroevolution since its inception.
+[State-dependent speciation and extinction (SSE) models](https://revbayes.github.io/tutorials/sse/bisse-intro) provide a powerful framework to test such hypotheses.
+Despite [some reservations on the model's false-positive rate](https://academic.oup.com/sysbio/article-abstract/64/2/340/1633695), SSE models remain one of the best options for researchers looking to understand how characters might have shaped the speciation dynamics of a group.
+SSE analyses have historically used extant-only trees, making them not appropriate for the inference of trait-dependent extinction (unless [one is interested in tip-rates only](https://academic.oup.com/sysbio/article/72/1/50/6647869)), since the absence of fossil data makes the inference of past dynamics challenging.
+Using my R package [paleobuddy](https://cran.r-project.org/web/packages/paleobuddy/index.html), I performed a simulation study to demonstrate that the inclusion of fossil data on the phylogeny in question allows for accurate inference of state-dependent extinction.
+I will soon be applying this workflow to a complete canid phylogenetic tree to test whether hypercarnivory has affected extinction rates for that group. 
 
 ### Related publications
-
-- [paleobuddy: An R package for flexible birth-death process simulation](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13996)
 
 - [Fossils improve extinction-rate estimates under state-dependent diversification models](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0313)
 
+- [paleobuddy: An R package for flexible birth-death process simulation](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13996)
+
 ## Phylogenetic inference using stratigraphic ranges
 
-... SRFBD and dogs!...
+The [fossilized birth-death process](https://revbayes.github.io/tutorials/fbd/fbd_specimen) has been the standard for combined-evidence analyses since its introduction in 2014.
+By modeling fossil sampling in parallel with speciation, extinction, and character evolution, researchers can build trees including both extant taxa and fossil specimens.
+The application of FBD specimen (as the original model as come to be known), a taxonomy-independent model, is challenging for a large number of groups, however.
+Canids, for example, exhibit high fossil count per species, with many fossils being fragmentary and assigned to a species through expert opinion.
+Because of these taxonomically-structured datasets, it is non-trivial to make decisions regarding the attachment of morphological data to fossil specimens, given that morphological matrices generally only contain scores for one specimen per species.
+This leads researchers to implement imperfect workarounds, such as setting one specimen for each species with fossil-age uncertainty set to the first and last appearances of that species (which could lead to [biased divergence times](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2020.00183/full), since the age uncertainty of each specimen is ignored).
+The introduction of the [stratigraphic-range FBD (SRFBD) process](https://www.sciencedirect.com/science/article/pii/S002251931830119X) equipped researchers with a model that better accommodates the taxonomic structure of paleontological datasets, by allowing fossil data to be structured as stratigraphic ranges for each species.
+The implementation of this model has been challenging, however, and only recently was the [first implementation](https://www.biorxiv.org/content/10.1101/2025.04.17.649084v1) made available in BEAST2.
+To better understand the pros and cons of each FBD model, and to obtain a high-quality phylogenetic tree for PCM applications (see above), I am working on an application of SRFBD to a dataset of extant and extinct canids.
+I will use both SRFBD and FBD specimen (with the oldest and youngest fossil occurrence for each species) to conduct combined-evidence analyses of Canidae, comparing the inferred topologies and divergence times with past studies analyzing the group.
+I will also conduct a short simulation study to gain an objective understanding of the differences in accuracy of the different models.
 
 ### Related publications
 
-- In progress...
+- In progress... but check out my talk at the 2025 Evolution Meeting!
