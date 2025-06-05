@@ -34,7 +34,6 @@ I will soon be applying this workflow to a complete canid phylogenetic tree to t
 ### Related publications
 
 - [Fossils improve extinction-rate estimates under state-dependent diversification models](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2023.0313)
-
 - [paleobuddy: An R package for flexible birth-death process simulation](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13996)
 
 ## Phylogenetic inference using stratigraphic ranges
@@ -44,6 +43,7 @@ The application of FBD specimen (as the original model as come to be known), a t
 Because many paleontological datasets are taxonomically-structured, it is non-trivial to make decisions regarding the attachment of morphological data to multiple fossil specimens assigned to the same species.
 This leads researchers to implement imperfect workarounds, which could lead to [biased divergence times](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2020.00183/full).
 The introduction of the [stratigraphic-range FBD (SRFBD) process](https://www.sciencedirect.com/science/article/pii/S002251931830119X) equipped researchers with a model that better accommodates the taxonomic structure of paleontological datasets, by allowing fossil data to be structured as stratigraphic ranges for each species. 
+It also allows us to include all age information for each species, which could help solve some problematic topological placements.
 To better understand the pros and cons of each FBD model, and to obtain a high-quality phylogenetic tree for PCM applications (see above), I am working on an application of SRFBD to a dataset of extant and extinct canids.
 I will use both SRFBD and FBD specimen (with the oldest and youngest fossil occurrence for each species) to conduct combined-evidence analyses of Canidae, comparing the inferred topologies and divergence times with past studies analyzing the group.
 I will also conduct a short simulation study to gain an objective understanding of the differences in accuracy of the different models.
