@@ -23,7 +23,9 @@ A very, very small percentage of those left remains that paleontologists can fin
 These fossils represent the only direct data on the past of life on Earth, and therefore provide researchers with the opportunity to test hypotheses about complex diversification patterns in deep-time.
 
 ## State-dependent diversification rate estimation with fossils
-
+<center><p align="center">
+  <img width="500" height="400" src="/images/sse.jpg" align="right">
+</p></center>
 Questions on the effect of traits on species diversification have been a mainstay of macroevolution since its inception.
 [State-dependent speciation and extinction (SSE) models](https://revbayes.github.io/tutorials/sse/bisse-intro) provide a powerful framework to test such hypotheses.
 Despite [some reservations on the model's false-positive rate](https://academic.oup.com/sysbio/article-abstract/64/2/340/1633695), SSE models remain one of the best options for researchers looking to understand how characters might have shaped the speciation dynamics of a group.
@@ -37,7 +39,9 @@ I will soon be applying this workflow to a complete canid phylogenetic tree to t
 - [paleobuddy: An R package for flexible birth-death process simulation](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13996)
 
 ## Phylogenetic inference using stratigraphic ranges
-
+<center><p align="center">
+  <img width="500" height="400" src="/images/fbd_range.png" align="right">
+</p></center>
 The [fossilized birth-death process](https://revbayes.github.io/tutorials/fbd/fbd_specimen) has been the standard for combined-evidence analyses since its introduction in 2014.
 The application of FBD specimen (as the original model as come to be known), a taxonomy-independent model, is challenging for a large number of groups, however.
 Because many paleontological datasets are taxonomically-structured, it is non-trivial to make decisions regarding the attachment of morphological data to multiple fossil specimens assigned to the same species.
