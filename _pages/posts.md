@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "News"
-permalink: /news/
+permalink: /posts/
 author_profile: true
 show_date: false
 ---

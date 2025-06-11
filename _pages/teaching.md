@@ -23,8 +23,23 @@ author_profile: true
 </center>
 
 ### University of Chicago
-...
+- **BIOS 20151: Introduction to Quantitative Modeling in Biology (Basic)** (Spring 2019), *Teaching Assistant*
+- **MATH 13100-13200: Elementary Functions and Calculus I-II** (Fall 2018-Winter 2019), *Junior Tutor*
+- **MATH 15100: Calculus I** (Fall 2017), *Teaching Assistant*
+- **MATH 18300: Mathematical Methods in the Physical Sciences I** (Spring 2017), *Grader*
+
+<div style="float: right; width: 300px; margin: 0 0 10px 10px;">
+  <figure style="margin: 0;">
+    <img src="/images/mole2025.jpg" style="width: 100%; height: auto; display: block;">
+    <figcaption style="font-size: 0.9em; text-align: center;">Leading the IQTree lab at MOLE 2025 (photo by Isabel Novick).</figcaption>
+  </figure>
+</div>
 
 ## Workshops
 
-## Misc
+- **[Workshop on Molecular Evolution](https://molevolworkshop.github.io/)** (Summer 2024-2025), *Teaching assistant*, Woods Hole, MA, USA
+- **[RevBayes Stay-At-Home Workshop](https://revbayes.github.io/workshops/online2021.html)** (Spring 2021), *Teaching Assistant*, Online
+
+## Miscellaneous teaching and outreach
+- **Iowa Mentored Community College Teaching Practicum** (Spring 2021), *Mentee/Teaching Assistant*, Des Moines Area Community College, Des Moines, IA, USA
+- **Colégio Vital Brazil** (Fall 2015), *Laboratory Assistant/Intern*, São Paulo, SP, Brasil
