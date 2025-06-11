@@ -2,7 +2,7 @@
 title: 'Website out'
 date: 2025-06-11
 show_date: false
-permalink: /posts/2025/06/website_out/
+permalink: /posts/2025/06/website-out/
 excerpt: " "
 ---
 
