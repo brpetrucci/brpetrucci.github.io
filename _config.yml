@@ -84,7 +84,6 @@ author:
   name             : "Bruno do Rosario Petrucci"
   avatar           : "brpetrucci_optimized.png"
   bio              : "PhD candidate at Iowa State University"
-  bluesky          : "brpetrucci.bsky.social"
   location         : "Ames, IA"
   employer         :
   pubmed           : 
@@ -123,6 +122,13 @@ author:
       image: http://placehold.it/350x250
       image_alt: "image"
       text: "Some text here."
+
+  links:
+    - label: "Bluesky"
+      icon: "fa-brands fa-square-bluesky"  
+      url: "https://bsky.app/profile/brpetrucci.bsky.social"
+
+
 
 # Reading Files
 include:
