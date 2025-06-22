@@ -90,13 +90,7 @@ author:
   github           : "brpetrucci"
   linkedin         :
   orcid            : 0000-0001-6334-8483
-  twitter          : "brpetrucci"
-  links:
-    - label: "Bluesky"
-      icon: "fa-brands fa-square-bluesky"  
-      url: "https://bsky.app/profile/brpetrucci.bsky.social"
-
-
+  bluesky          : "brpetrucci.bsky.social"
 
 # Reading Files
 include:
