@@ -40,9 +40,6 @@
        {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fa-brands fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
-      {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fa-brands fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fa-brands fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
       {% endif %}
@@ -65,7 +62,7 @@
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fa-brands fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fa-brands fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><i class="fa-brands fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fa-brands fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -116,7 +113,7 @@
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
       {% if author.bluesky %}
-        <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fa-brands fa-fw fa-bluesky" aria-hidden="true"></i> Bluesky</a></li>
+        <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Bluesky</a></li>
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa-brands fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
