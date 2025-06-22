@@ -85,44 +85,12 @@ author:
   avatar           : "brpetrucci_optimized.png"
   bio              : "PhD candidate at Iowa State University"
   location         : "Ames, IA"
-  employer         :
-  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=lZXpQnAAAAAJ&hl=en"
   email            : "petrucci@iastate.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "brpetrucci"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
   linkedin         :
   orcid            : 0000-0001-6334-8483
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
   twitter          : "brpetrucci"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-  #Sidebar
-  sidebar:
-    - title: "Title"
-      image: http://placehold.it/350x250
-      image_alt: "image"
-      text: "Some text here."
-
   links:
     - label: "Bluesky"
       icon: "fa-brands fa-square-bluesky"  
