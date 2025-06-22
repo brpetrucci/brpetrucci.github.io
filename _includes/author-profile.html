@@ -64,6 +64,9 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fa-brands fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
+      {% if author.bluesky %}
+        <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Bluesky</a></li>
+      {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fa-brands fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}
@@ -111,9 +114,6 @@
       {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
-      {% endif %}
-      {% if author.bluesky %}
-        <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fa-brands fa-bluesky" aria-hidden="true"></i> Bluesky</a></li>
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fa-brands fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
