@@ -45,6 +45,7 @@ I will soon be applying this workflow to a complete canid phylogenetic tree to t
 The [fossilized birth-death process](https://revbayes.github.io/tutorials/fbd/fbd_specimen) has been the standard for combined-evidence analyses since its introduction in 2014.
 However, the FBD specimen model (as it is now known) is not appropriate for phylogenetic inference in most paleontological data sets--since it is a taxonomy-independent model, it is impossible to include all morphological and stratigraphic data (including age uncertainty) for well-sampled species.
 This leads researchers to implement imperfect workarounds, which could lead to [biased divergence times](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2020.00183/full).
+
 The introduction of the [stratigraphic-range FBD (SRFBD) process](https://www.sciencedirect.com/science/article/pii/S002251931830119X) equipped researchers with a model that better accommodates the taxonomic structure of paleontological datasets, by allowing fossil data to be structured as stratigraphic ranges for each species. 
 It also allows us to include all age information for each species, which could help solve some problematic topological placements.
 To better understand the pros and cons of each FBD model, and to obtain a high-quality phylogenetic tree for PCM applications (see above), I am working on an application of SRFBD to a dataset of extant and extinct canids.
