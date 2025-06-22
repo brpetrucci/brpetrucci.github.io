@@ -40,7 +40,7 @@ I will soon be applying this workflow to a complete canid phylogenetic tree to t
 
 ## Phylogenetic inference using stratigraphic ranges
 <center><p align="center">
-  <img width="500" height="400" src="/images/fbd_range.png" align="right">
+  <img width="300" height="240" src="/images/fbd_range.png" align="right">
 </p></center>
 The [fossilized birth-death process](https://revbayes.github.io/tutorials/fbd/fbd_specimen) has been the standard for combined-evidence analyses since its introduction in 2014.
 However, the FBD specimen model (as it is now known) is not appropriate for phylogenetic inference in most paleontological data sets--since it is a taxonomy-independent model, it is impossible to include all morphological and stratigraphic data (including age uncertainty) for well-sampled species.
