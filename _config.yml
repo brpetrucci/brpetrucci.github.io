@@ -89,7 +89,7 @@ author:
   email            : "petrucci@iastate.edu"
   github           : "brpetrucci"
   linkedin         :
-  orcid            : 0000-0001-6334-8483
+  orcid            : "https://orcid.org/0000-0001-6334-8483" 
   bluesky          : "brpetrucci.bsky.social"
 
 # Reading Files
