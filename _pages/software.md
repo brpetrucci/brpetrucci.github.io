@@ -31,7 +31,8 @@ It allows for efficient simulation of a number of scenarios of interest for the 
 
 RevBayes is a C++-based software to perform Bayesian phylogenetic analyses.
 It makes use of [probabilistic graphical models](https://academic.oup.com/sysbio/article/63/5/753/2847897) and an interpreted language (Rev, similar to R) to maximize flexibility and modularity.
-In Spring and Summer of 2025, I was part of an [NSF POSE grant](https://www.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems) to make RevBayes more accessible to users, improve its testing suite and website, and investigate the most effective ways to garner user feedback.
+I have been making contributions to RevBayes since the beginning of my graduate studies, in the Fall of 2021.
+In Spring and Summer of 2025, I was also part of an [NSF POSE grant](https://www.nsf.gov/funding/opportunities/pose-pathways-enable-open-source-ecosystems) to make RevBayes more accessible to users, improve its testing suite and website, and investigate the most effective ways to garner user feedback.
 
 - C++ backend makes for efficient and flexible object-oriented framework
 - Includes a plethora of models of inference for phylogenetic trees, macroevolutionary rates, biogrography, traits etc.
