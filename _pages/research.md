@@ -54,4 +54,4 @@ I will also conduct a short simulation study to gain an objective understanding 
 
 **Related publications**
 
-- In progress... but check out the rundown and recording of my Evolution 2025 talk in my [Bluesky](https://bsky.app/profile/brpetrucci.bsky.social)!
+- In progress... but check out my talk at Evolution 2026, Room 22, 5:15PM!
