@@ -34,6 +34,13 @@
   }
 }
 
+.page--tutorial {
+  @include breakpoint($large) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;

@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+
+  {% include sidebar.html %}
+
+  <article class="page page--tutorial" itemscope itemtype="http://schema.org/CreativeWork">
+
+    {% if page.title %}
+      <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+
+    {% if page.excerpt %}
+      <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+
+    {% if page.date %}
+      <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">
+    {% endif %}
+
+    {% if page.modified %}
+      <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">
+    {% endif %}
+
+    <div class="page__inner-wrap">
+
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <header>
+
+          {% if page.title %}
+            <h1 class="page__title" itemprop="headline">
+              {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+            </h1>
+          {% endif %}
+
+          {% if page.read_time %}
+            <p class="page__meta">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              {% include read-time.html %}
+            </p>
+          {% endif %}
+
+          {% if page.modified %}
+            <p class="page__date">
+              <strong>
+                <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
+              </strong>
+              <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">
+                {{ page.modified | date: "%B %d, %Y" }}
+              </time>
+            </p>
+          {% endif %}
+
+        </header>
+      {% endunless %}
+
+      <div class="tutorial__body">
+
+        <section class="page__content" itemprop="text">
+
+          {% if page.downloads %}
+            {% include tutorial-downloads.html %}
+          {% endif %}
+
+          {{ content }}
+
+        </section>
+
+        {% if page.toc %}
+          <aside class="sidebar__right" id="tutorial-toc">
+            <nav class="toc">
+              <header>
+                <h4 class="nav__title">
+                  <i class="fa fa-file-text"></i>
+                  {{ site.data.ui-text[site.locale].toc_label | default: "On This Page" }}
+                </h4>
+              </header>
+              <ul class="toc__menu"></ul>
+            </nav>
+          </aside>
+          <script src="{{ '/assets/js/tutorial-toc.js' | relative_url }}" defer></script>
+        {% endif %}
+
+      </div>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
+      </footer>
+
+      {% if page.share %}
+        {% include social-share.html %}
+      {% endif %}
+
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+
+  </article>
+
+</div>

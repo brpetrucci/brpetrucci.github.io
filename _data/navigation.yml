@@ -15,5 +15,8 @@ main:
   - title: "Software"
     url: /software/  
 
+#  - title: "Tutorials"
+#    url: /tutorials/
+
   - title: "News"
     url: /news/

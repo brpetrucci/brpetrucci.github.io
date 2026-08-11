@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood:sr.evolution.operators:sa.evolution.operators:sr.evolution.tree:sr.evolution.sranges:sr.speciation" required="BEAST.base v2.7.6:SA v2.1.1:MM v1.2.1:ORC v1.2.0:BEASTLabs v2.0.2" version="2.7">
+
+
+    <data
+id="morpho"
+spec="Alignment"
+dataType="standard">
+        <sequence id="morpho_seq_Aelurodon_asthenostylus_first" spec="Sequence" taxon="Aelurodon_asthenostylus_first" totalcount="5" value="0002?00?10?000010??000???2140?11100110000010?1100111102010201?0?00000010?0?030101?10010?10?1?011111021??310??0?0?000000?02?01234"/>
+        <sequence id="morpho_seq_Aelurodon_asthenostylus_last" spec="Sequence" taxon="Aelurodon_asthenostylus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Aelurodon_ferox_first" spec="Sequence" taxon="Aelurodon_ferox_first" totalcount="5" value="0113?00?20?000020??000???2140?11100100000010?1201111102010201?0?00000020?0?030101110020?10?1?011111022??310??0?0?000000?02?01234"/>
+        <sequence id="morpho_seq_Aelurodon_ferox_last" spec="Sequence" taxon="Aelurodon_ferox_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Aelurodon_mcgrewi_first" spec="Sequence" taxon="Aelurodon_mcgrewi_first" totalcount="5" value="0102?00?20?000020??000???2140?11100100002010?1100111102010201?0100000010?0?030101110010?10?1?011111022??310??0?0?0000001???01234"/>
+        <sequence id="morpho_seq_Aelurodon_stirtoni_first" spec="Sequence" taxon="Aelurodon_stirtoni_first" totalcount="5" value="0102?00?20?000020??000???2140?11100100102010?1201111102020201?0?00000010?0?030101110000?10?0?011111022??310??0?0?000000?02?01234"/>
+        <sequence id="morpho_seq_Aelurodon_stirtoni_last" spec="Sequence" taxon="Aelurodon_stirtoni_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Aelurodon_taxoides_first" spec="Sequence" taxon="Aelurodon_taxoides_first" totalcount="5" value="0113?00?20?000020??000???3140?11100100000010?1201111102020201?0100000020?0?030101110020?10?1?011111022??310??0?0?000100?0??01234"/>
+        <sequence id="morpho_seq_Aelurodon_taxoides_last" spec="Sequence" taxon="Aelurodon_taxoides_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Aenocyon_dirus_first" spec="Sequence" taxon="Aenocyon_dirus_first" totalcount="5" value="01001001311010011110??11130001211?100??1?02?01101111100110201011011001001010301?10110??11111??10111?220210010010?0?1??1112101234"/>
+        <sequence id="morpho_seq_Aenocyon_dirus_last" spec="Sequence" taxon="Aenocyon_dirus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Archaeocyon_falkenbachi_first" spec="Sequence" taxon="Archaeocyon_falkenbachi_first" totalcount="5" value="0??????000?000?10????????0000?1000000000?????10?0?1????0????1?0?03000000000000?00010000?00?0?110110000??000????????????????01234"/>
+        <sequence id="morpho_seq_Archaeocyon_leptodus_first" spec="Sequence" taxon="Archaeocyon_leptodus_first" totalcount="5" value="0000?00000?000010??000???0000?10000000000000?1000100000000001?0000000000000000?00000000000?0?110110000??000??0?0000000000??01234"/>
+        <sequence id="morpho_seq_Archaeocyon_leptodus_last" spec="Sequence" taxon="Archaeocyon_leptodus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Archaeocyon_pavidus_first" spec="Sequence" taxon="Archaeocyon_pavidus_first" totalcount="5" value="?000?10000?000010??000??10000?10000000000000?1000000000000001?000000?000?000?0?00000000000?0?11011?000??000??0?00000000000?01234"/>
+        <sequence id="morpho_seq_Archaeocyon_pavidus_last" spec="Sequence" taxon="Archaeocyon_pavidus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_diversidens_first" spec="Sequence" taxon="Borophagus_diversidens_first" totalcount="5" value="0200?00100?100100??302???3100?11011100000010?1201111100010201?0?04000010?0?042001010000000?1?011111122??100??1?0?010111?02?01234"/>
+        <sequence id="morpho_seq_Borophagus_diversidens_last" spec="Sequence" taxon="Borophagus_diversidens_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_dudleyi_first" spec="Sequence" taxon="Borophagus_dudleyi_first" totalcount="5" value="010?????00?100?00????????????????????????????1??1?1?1??0????1?0?04000010?0?042?01010000000?1?011111122??100????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_dudleyi_last" spec="Sequence" taxon="Borophagus_dudleyi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_hilli_first" spec="Sequence" taxon="Borophagus_hilli_first" totalcount="5" value="0100?00100?100100??300???3130?112111100000?0?11011111000?0201?0?040000?0?0?0?????????????0????1?11???????????1?0?01010?????01234"/>
+        <sequence id="morpho_seq_Borophagus_hilli_last" spec="Sequence" taxon="Borophagus_hilli_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_littoralis_first" spec="Sequence" taxon="Borophagus_littoralis_first" totalcount="5" value="0000????00?100000??200???3140?11201110000010?1001111100000001?0?03000010?0?032?010?0000?00?1?01111112???100??????0?00??????01234"/>
+        <sequence id="morpho_seq_Borophagus_littoralis_last" spec="Sequence" taxon="Borophagus_littoralis_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_orc_first" spec="Sequence" taxon="Borophagus_orc_first" totalcount="5" value="0??????100?100100??200???3140?1120111000?????1001111100000001?0?03000010?0?0?????????????0????1?11?????????????0?0101??????01234"/>
+        <sequence id="morpho_seq_Borophagus_orc_last" spec="Sequence" taxon="Borophagus_orc_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_parvus_first" spec="Sequence" taxon="Borophagus_parvus_first" totalcount="5" value="0000?00100?100000??300???3140?11201110000010?1001111100000201?0?03000010?0?032001000000000?1?01111112???100??1?0?010100?0??01234"/>
+        <sequence id="morpho_seq_Borophagus_pugnator_first" spec="Sequence" taxon="Borophagus_pugnator_first" totalcount="5" value="0000?00100?100000??200???3140?11201110000010?1001111100000001?0?03000010?0?032001????????0????1?11???????????1?0?010100?0??01234"/>
+        <sequence id="morpho_seq_Borophagus_pugnator_last" spec="Sequence" taxon="Borophagus_pugnator_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Borophagus_secundus_first" spec="Sequence" taxon="Borophagus_secundus_first" totalcount="5" value="0000?00100?100100??300???3140?11201110000010?1001111100000201?0?04000010?0?032001010000000?1?011111121??100??1?0?01010?????01234"/>
+        <sequence id="morpho_seq_Borophagus_secundus_last" spec="Sequence" taxon="Borophagus_secundus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Caedocyon_tedfordi_first" spec="Sequence" taxon="Caedocyon_tedfordi_first" totalcount="5" value="0200???110??00?0???0????12000?101000???000???1???????????????????301000?00?020???????????????????10????????????????????????01234"/>
+        <sequence id="morpho_seq_Canis_armbrusteri_first" spec="Sequence" taxon="Canis_armbrusteri_first" totalcount="5" value="0100?001311010001110??11130001210?001??1?02?01101111100110201011011001001010301?10110??11111??10111?220210010010?0?1??11?2?01234"/>
+        <sequence id="morpho_seq_Canis_armbrusteri_last" spec="Sequence" taxon="Canis_armbrusteri_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Canis_edwardii_first" spec="Sequence" taxon="Canis_edwardii_first" totalcount="5" value="01001000311010011100??11100001110?001??1?02?010011111001100010100100000010?0201?10?10??00111??10111?210110000010?0?1??11?1?01234"/>
+        <sequence id="morpho_seq_Canis_edwardii_last" spec="Sequence" taxon="Canis_edwardii_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Canis_latrans_first" spec="Sequence" taxon="Canis_latrans_first" totalcount="5" value="01001000311010011100??11100001110?001??1?02?01001111100110001010010000011000201?10?10??10111??10111?210110000010?0?1??1112101234"/>
+        <sequence id="morpho_seq_Canis_latrans_last" spec="Sequence" taxon="Canis_latrans_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Canis_lepophagus_first" spec="Sequence" taxon="Canis_lepophagus_first" totalcount="5" value="00001000311010010000??10000001100?001??1?02?01000111100100001010010000001000200?10?10??10111??10111?210110000010?0?1??11?1?01234"/>
+        <sequence id="morpho_seq_Canis_lepophagus_last" spec="Sequence" taxon="Canis_lepophagus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Canis_lupus_first" spec="Sequence" taxon="Canis_lupus_first" totalcount="5" value="01001000311010011100??21100001210?101??1?02?01001111100110001011011000001000301?10110??11111??10111?220210000010?0?1??1112101234"/>
+        <sequence id="morpho_seq_Canis_lupus_last" spec="Sequence" taxon="Canis_lupus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Canis_thooides_first" spec="Sequence" taxon="Canis_thooides_first" totalcount="5" value="00001000311010010000??10000001100?001??1?02?0100011110010000101001?00?0?10?0?0???0??????0??1??10111??????????010???1??1111?01234"/>
+        <sequence id="morpho_seq_Carpocyon_compressus_first" spec="Sequence" taxon="Carpocyon_compressus_first" totalcount="5" value="0001?00?00?000000??000???2040?10200110000010?1001111100000101?0?00000010?0?031101000000?00?1?011111121??100??0?0?000000?0??01234"/>
+        <sequence id="morpho_seq_Carpocyon_compressus_last" spec="Sequence" taxon="Carpocyon_compressus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Carpocyon_limosus_first" spec="Sequence" taxon="Carpocyon_limosus_first" totalcount="5" value="0???????????00??0????????2040?10200110000111?10?1?1????0????1?0?0?0000?0?0?0???0?????????0????1?11?????????????????????????01234"/>
+        <sequence id="morpho_seq_Carpocyon_robustus_first" spec="Sequence" taxon="Carpocyon_robustus_first" totalcount="5" value="0?0??00?00?000000??100???2040?10200110000010?1001111100000101?0?00000010?0?031?010?0000?00?1?011111121??100??0?1?010000?0??01234"/>
+        <sequence id="morpho_seq_Carpocyon_webbi_first" spec="Sequence" taxon="Carpocyon_webbi_first" totalcount="5" value="000??00?00?000000??000???2040?10200110000010?1001111100000101?0?00000010?0?031101?00000?00?1?011111121??100??0?1?00000?????01234"/>
+        <sequence id="morpho_seq_Carpocyon_webbi_last" spec="Sequence" taxon="Carpocyon_webbi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cerdocyon_texanus_first" spec="Sequence" taxon="Cerdocyon_texanus_first" totalcount="5" value="00001000311010000000??00000001100?001??1?02?01000111100100001010010000001000100?10000??00110??10111?210110000100?0?1??1110101234"/>
+        <sequence id="morpho_seq_Cerdocyon_texanus_last" spec="Sequence" taxon="Cerdocyon_texanus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cormocyon_copei_first" spec="Sequence" taxon="Cormocyon_copei_first" totalcount="5" value="0000?00?00?000010??000???0000?10000110010010?1000110000000001?0?0000000000?000?01000000?00?0?010110021??100????0?00000?????01234"/>
+        <sequence id="morpho_seq_Cormocyon_copei_last" spec="Sequence" taxon="Cormocyon_copei_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cormocyon_haydeni_first" spec="Sequence" taxon="Cormocyon_haydeni_first" totalcount="5" value="0000?00?00?000010??000???0000?10000110010010?1000110000000001?000000000000?000?00000000?00?0?010110011??100??0?0?000000000?01234"/>
+        <sequence id="morpho_seq_Cormocyon_haydeni_last" spec="Sequence" taxon="Cormocyon_haydeni_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cuon_alpinus_first" spec="Sequence" taxon="Cuon_alpinus_first" totalcount="5" value="01001001002100010100??10100001111?120??1?02?11200110002020201012031000001000200?10100??00111??10111?210210000010?0?1??1112101234"/>
+        <sequence id="morpho_seq_Cuon_alpinus_last" spec="Sequence" taxon="Cuon_alpinus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_acridens_first" spec="Sequence" taxon="Cynarctoides_acridens_first" totalcount="5" value="0000?00?30?010010??010???0000?10200110030110?1020211020000021?000000000000?000?000?0100?00?0??10111021??100??0?0?00100?????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_acridens_last" spec="Sequence" taxon="Cynarctoides_acridens_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_emryi_first" spec="Sequence" taxon="Cynarctoides_emryi_first" totalcount="5" value="0???????00?010010??010???0000?10200110030110?1020211120001121?0?0?0000?000?0??????????????????1?11?????????????0?00000?????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_gawnae_first" spec="Sequence" taxon="Cynarctoides_gawnae_first" totalcount="5" value="0???????30?010010??000???0000?10000110020110?1010011000000021?000000000000?000?000?0100?00?0?010111021??100??0?0?00100?????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_harlowi_first" spec="Sequence" taxon="Cynarctoides_harlowi_first" totalcount="5" value="0???????00?000010??000???????????????????????10?001??000000?1?0?000000?000?0??????????????????1?11???????00????0???100?????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_lemur_first" spec="Sequence" taxon="Cynarctoides_lemur_first" totalcount="5" value="000?????00?000010??000???0000?10000110010010?1010010000000001?0?0000000000?000?000?0100?00?0?010110020??100????0?00100?????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_lemur_last" spec="Sequence" taxon="Cynarctoides_lemur_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_luskensis_first" spec="Sequence" taxon="Cynarctoides_luskensis_first" totalcount="5" value="000??00?30?010010??000???0000?10000110010010?1010011000000011?0?0000000000?000?000?0100?00?0?010110021??100??0?0?00100?????01234"/>
+        <sequence id="morpho_seq_Cynarctoides_roii_first" spec="Sequence" taxon="Cynarctoides_roii_first" totalcount="5" value="0?????0?00?000010??000???0000?10000110010010?1000010000000011?0?000000?000?0??????????????????1?11?????????????0???10??????01234"/>
+        <sequence id="morpho_seq_Cynarctus_crucidens_first" spec="Sequence" taxon="Cynarctus_crucidens_first" totalcount="5" value="0002?01102?000010??001???1021?10010210020211?1020211121030111?101000001010?0?????????????????010111021??100??0?1?101010?0??01234"/>
+        <sequence id="morpho_seq_Cynarctus_crucidens_last" spec="Sequence" taxon="Cynarctus_crucidens_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Cynarctus_galushai_first" spec="Sequence" taxon="Cynarctus_galushai_first" totalcount="5" value="0001?01100?000010??000???0000?100002100?0010?1010111101000101?001000001000?020?010?0000?00?0?010111021??100??0?1?00001?????01234"/>
+        <sequence id="morpho_seq_Cynarctus_marylandica_first" spec="Sequence" taxon="Cynarctus_marylandica_first" totalcount="5" value="0??????100?000?10???00???????????????????????1010111101000011?101?0000?000?0??????????????????1?11??????100????????????????01234"/>
+        <sequence id="morpho_seq_Cynarctus_saxatilis_first" spec="Sequence" taxon="Cynarctus_saxatilis_first" totalcount="5" value="0001?01101?000010??001???1000?10010210020211?1020211121030111?101000001000?020?????00????????010111021??100??0?1?00001?????01234"/>
+        <sequence id="morpho_seq_Cynarctus_voorhiesi_first" spec="Sequence" taxon="Cynarctus_voorhiesi_first" totalcount="5" value="0????01102?000010??001??????????????????0211?1020211121030111?10100000?000?0??????????????????1?11???????????0?1?10001?????01234"/>
+        <sequence id="morpho_seq_Cynodesmus_martini_first" spec="Sequence" taxon="Cynodesmus_martini_first" totalcount="5" value="0000?00?10?001?10??0????12000?101000???000???1000000000000001?000001000001?000????0?0??100?11010110?2200000????0000000?????01234"/>
+        <sequence id="morpho_seq_Cynodesmus_thooides_first" spec="Sequence" taxon="Cynodesmus_thooides_first" totalcount="5" value="0000?00000?000010??0????12000?101000???000???1000000000000001?000001000000?0001???000???????1010110?2200000?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Cynodesmus_thooides_last" spec="Sequence" taxon="Cynodesmus_thooides_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Desmocyon_matthewi_first" spec="Sequence" taxon="Desmocyon_matthewi_first" totalcount="5" value="0000?00000?000010??000???0000?10000110010010?1000111100100001?000000001000?020?01000000?00?0?010111021??100??0?0?00000000??01234"/>
+        <sequence id="morpho_seq_Desmocyon_thomsoni_first" spec="Sequence" taxon="Desmocyon_thomsoni_first" totalcount="5" value="0000?00000?000010??000???0000?10000110010010?1000111000000001?000000000000?010?01010000?00?0?010111021??100??0?0?000000000?01234"/>
+        <sequence id="morpho_seq_Desmocyon_thomsoni_last" spec="Sequence" taxon="Desmocyon_thomsoni_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Ectopocynus_antiquus_first" spec="Sequence" taxon="Ectopocynus_antiquus_first" totalcount="5" value="?????00110?001100??0??????????????????????????100100000000101?0103?????????0?????????????????????10?????????00?0000000?????01234"/>
+        <sequence id="morpho_seq_Ectopocynus_antiquus_last" spec="Sequence" taxon="Ectopocynus_antiquus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Ectopocynus_intermedius_first" spec="Sequence" taxon="Ectopocynus_intermedius_first" totalcount="5" value="?????00110?001100??0??????????????????????????100100000010101?0103?????????0?????????????????????10????????????0000000?????01234"/>
+        <sequence id="morpho_seq_Ectopocynus_simplicidens_first" spec="Sequence" taxon="Ectopocynus_simplicidens_first" totalcount="5" value="?????00110?001100??0??????????????????????????201110000010101?0203?????????0?????????????????????10?????????01?0000000?????01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_basilatus_first" spec="Sequence" taxon="Enhydrocyon_basilatus_first" totalcount="5" value="???????120?001010??0????12000?111000???000???1200100001020201?010301100001?000????0?0??1????0011110?2120201?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_basilatus_last" spec="Sequence" taxon="Enhydrocyon_basilatus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_crassidens_first" spec="Sequence" taxon="Enhydrocyon_crassidens_first" totalcount="5" value="1100?00110?001110??0????12010?111000???000???1201100001020201?010301100001?000????000????0?10010110?2110202?00?00000000?01?01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_crassidens_last" spec="Sequence" taxon="Enhydrocyon_crassidens_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_pahinsintewakpa_first" spec="Sequence" taxon="Enhydrocyon_pahinsintewakpa_first" totalcount="5" value="1100?00110?001?10??0????12000?111000???000???1201100001010201?000301100001?000?1??0?0??110?11010110?2110201?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_pahinsintewakpa_last" spec="Sequence" taxon="Enhydrocyon_pahinsintewakpa_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_stenocephalus_first" spec="Sequence" taxon="Enhydrocyon_stenocephalus_first" totalcount="5" value="1100?00110?001?10??0????12000?111000???000???1201000001020?01?0?0301100001?000?1??000??1?0?10011110?2110201?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Enhydrocyon_stenocephalus_last" spec="Sequence" taxon="Enhydrocyon_stenocephalus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Epicyon_aelurodontoides_first" spec="Sequence" taxon="Epicyon_aelurodontoides_first" totalcount="5" value="020?????00?100?00?????????1?0?1100111000?0???10?1?1????0????1?0?000000?0?0?031?01010010?10?1?0111111????300????????????????01234"/>
+        <sequence id="morpho_seq_Epicyon_haydeni_first" spec="Sequence" taxon="Epicyon_haydeni_first" totalcount="5" value="0000?00100?100000??200???3140?11001110000010?1101111100010201?0?00000010?0?031?01010001?00?1?011111222??100??0?0?010000?0??01234"/>
+        <sequence id="morpho_seq_Epicyon_haydeni_last" spec="Sequence" taxon="Epicyon_haydeni_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Epicyon_saevus_first" spec="Sequence" taxon="Epicyon_saevus_first" totalcount="5" value="0000?00100?100000??200???2140?11001110000010?1001111100000201?0?00000010?0?031101010001?00?1?011111122??100??0?0?010000?0??01234"/>
+        <sequence id="morpho_seq_Epicyon_saevus_last" spec="Sequence" taxon="Epicyon_saevus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Eucyon_davisi_first" spec="Sequence" taxon="Eucyon_davisi_first" totalcount="5" value="00001000311010010000??10000001100?001??1?02?01000111000100001010010000001000100?10010??00110??10111?210110000000?0?1??1110?01234"/>
+        <sequence id="morpho_seq_Eucyon_davisi_last" spec="Sequence" taxon="Eucyon_davisi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Eucyon_ferox_first" spec="Sequence" taxon="Eucyon_ferox_first" totalcount="5" value="00001000311010010000??10000001100?001??1?02?010001110001000010100100000010?0200?10?10??10111??10111?210110000010?0?1??11?1?01234"/>
+        <sequence id="morpho_seq_Eucyon_ferox_last" spec="Sequence" taxon="Eucyon_ferox_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Euoplocyon_brachygnathus_first" spec="Sequence" taxon="Euoplocyon_brachygnathus_first" totalcount="5" value="0102?00?00?000020??000???0020?10000110000010?120011??02020201?0?00000010?0?020001000000?00?0?010111022??100????0?00000?????01234"/>
+        <sequence id="morpho_seq_Euoplocyon_spissidens_first" spec="Sequence" taxon="Euoplocyon_spissidens_first" totalcount="5" value="0???????00?000010??000???0020?10000110000010?120011??02010201?0?0?0000?0?0?0??????0???????????1?11?????????????0?00000?????01234"/>
+        <sequence id="morpho_seq_Hesperocyon_coloradensis_first" spec="Sequence" taxon="Hesperocyon_coloradensis_first" totalcount="5" value="0000?00100?000010??0????12000?101000???000???1000000000000001?0000000000001000??000?????0??0011011001000000?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Hesperocyon_gregarius_first" spec="Sequence" taxon="Hesperocyon_gregarius_first" totalcount="5" value="0000?00000?000010??0????12000?101000???000???1000000000000001?10000000000000000000000??000?0011011000000000?00?00000000000001234"/>
+        <sequence id="morpho_seq_Hesperocyon_gregarius_last" spec="Sequence" taxon="Hesperocyon_gregarius_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Leptocyon_douglassi_first" spec="Sequence" taxon="Leptocyon_douglassi_first" totalcount="5" value="0?????00310010010000??00000000100?001??1?00?0100011100000000110001?0000010?0000?000???????????1011???0?????????0???1???????01234"/>
+        <sequence id="morpho_seq_Leptocyon_douglassi_last" spec="Sequence" taxon="Leptocyon_douglassi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Leptocyon_gregorii_first" spec="Sequence" taxon="Leptocyon_gregorii_first" totalcount="5" value="0?????00310010010000??00000001100?001??1?02?01000111000000000000010000001000000?00000??00000??1011??200000000000???1???????01234"/>
+        <sequence id="morpho_seq_Leptocyon_leidyi_first" spec="Sequence" taxon="Leptocyon_leidyi_first" totalcount="5" value="00000?00311010010000??00000001100?001??1?02?110001110000001010000100000010?0000?000?0?????????1011???0???????000???1??00?0?01234"/>
+        <sequence id="morpho_seq_Leptocyon_leidyi_last" spec="Sequence" taxon="Leptocyon_leidyi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Leptocyon_matthewi_first" spec="Sequence" taxon="Leptocyon_matthewi_first" totalcount="5" value="0????000311010010000??00000001100?001??1?02?0100011100010020101001?00?0?10?0000?000?0??00110??1011??2000000?0000???1??01???01234"/>
+        <sequence id="morpho_seq_Leptocyon_matthewi_last" spec="Sequence" taxon="Leptocyon_matthewi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Leptocyon_mollis_first" spec="Sequence" taxon="Leptocyon_mollis_first" totalcount="5" value="0000??003??0100????0????000000100?001??1?00?01???11??00?????????01?0000010?0000?00000??00000??1011??000000000??????????????01234"/>
+        <sequence id="morpho_seq_Leptocyon_vafer_first" spec="Sequence" taxon="Leptocyon_vafer_first" totalcount="5" value="00000000311010010000??00000001100?000??1?02?11000111000000001010010000011000000?00000??00110??1011??210000000000???1??0000?01234"/>
+        <sequence id="morpho_seq_Leptocyon_vafer_last" spec="Sequence" taxon="Leptocyon_vafer_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Leptocyon_vulpinus_first" spec="Sequence" taxon="Leptocyon_vulpinus_first" totalcount="5" value="00000?00310010010000??00?00000000?001??1?0??0100011100000010000001000?0?10?0?0????????????????1011???0?????????0???1??01???01234"/>
+        <sequence id="morpho_seq_Leptocyon_vulpinus_last" spec="Sequence" taxon="Leptocyon_vulpinus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Lycaon_pictus_first" spec="Sequence" taxon="Lycaon_pictus_first" totalcount="5" value="01001001002100010100??10100001111?120??1?02?11200110002010201011031000001000201?10100??00111??10111?210210000010?0?1??1112101234"/>
+        <sequence id="morpho_seq_Lycaon_pictus_last" spec="Sequence" taxon="Lycaon_pictus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Mesocyon_brachyops_first" spec="Sequence" taxon="Mesocyon_brachyops_first" totalcount="5" value="0000?00000?000010??0????12000?101000???000???1000000000000001?00030?000000?000????1?????00?01010110?2100000?0??????????????01234"/>
+        <sequence id="morpho_seq_Mesocyon_brachyops_last" spec="Sequence" taxon="Mesocyon_brachyops_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Mesocyon_coryphaeus_first" spec="Sequence" taxon="Mesocyon_coryphaeus_first" totalcount="5" value="0000?00000?000010??0????12000?101000???000???1000000000000001?000001000000?000????0?0??100?11011110?2100000?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Mesocyon_coryphaeus_last" spec="Sequence" taxon="Mesocyon_coryphaeus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Mesocyon_temnodon_first" spec="Sequence" taxon="Mesocyon_temnodon_first" totalcount="5" value="0000?00000?000010??0????12000?101000???000???1000000000000001?000000000000?0001???0?0??1????0010110?2000000?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Mesocyon_temnodon_last" spec="Sequence" taxon="Mesocyon_temnodon_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Metalopex_macconnelli_first" spec="Sequence" taxon="Metalopex_macconnelli_first" totalcount="5" value="00000?00311010010000??00000000100?021??1?00?1101011100000011011011000?0110?0000?000????00110??10111?2010100?0000???1???????01234"/>
+        <sequence id="morpho_seq_Metalopex_macconnelli_last" spec="Sequence" taxon="Metalopex_macconnelli_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Metalopex_merriami_first" spec="Sequence" taxon="Metalopex_merriami_first" totalcount="5" value="0???0?00311110000000??00000000100?021??1?00?110100110010001101101100000?10?0?0?????????10110??10111?20??100?0??0???1???????01234"/>
+        <sequence id="morpho_seq_Metalopex_merriami_last" spec="Sequence" taxon="Metalopex_merriami_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Metatomarctus_canavus_first" spec="Sequence" taxon="Metatomarctus_canavus_first" totalcount="5" value="0001?00?00?0?0010??000???0020?10000110000010?1000111100000001?0?00000010?0?020?010????????????1?11???????????0?0?000000?0??01234"/>
+        <sequence id="morpho_seq_Metatomarctus_canavus_last" spec="Sequence" taxon="Metatomarctus_canavus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Microtomarctus_conferta_first" spec="Sequence" taxon="Microtomarctus_conferta_first" totalcount="5" value="0001?00100?000010??000???0030?10000110000010?1000111100000001?0?03000010?0?020?01010000?00?1?010111021??100??0?0?000000?0??01234"/>
+        <sequence id="morpho_seq_Microtomarctus_conferta_last" spec="Sequence" taxon="Microtomarctus_conferta_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Osbornodon_brachypus_first" spec="Sequence" taxon="Osbornodon_brachypus_first" totalcount="5" value="?000?00?30?010010??1????12000?101000???000???1100000000000101?01010?000010?020????1?????????0013110?2102400?01?0100000?????01234"/>
+        <sequence id="morpho_seq_Osbornodon_brachypus_last" spec="Sequence" taxon="Osbornodon_brachypus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Osbornodon_fricki_first" spec="Sequence" taxon="Osbornodon_fricki_first" totalcount="5" value="0000?00030?000010??2????12010?101000???000???1100000000000101?000100000010?03000??100??010?10013110?2102400?01?00000000?0??01234"/>
+        <sequence id="morpho_seq_Osbornodon_fricki_last" spec="Sequence" taxon="Osbornodon_fricki_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Osbornodon_iamonensis_first" spec="Sequence" taxon="Osbornodon_iamonensis_first" totalcount="5" value="0000?00030?010010??1????12000?101000???000???1000000000000101?000100000010?0200???0?0??010?10013110?2101400?01?00000000?0??01234"/>
+        <sequence id="morpho_seq_Osbornodon_iamonensis_last" spec="Sequence" taxon="Osbornodon_iamonensis_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Osbornodon_renjiei_first" spec="Sequence" taxon="Osbornodon_renjiei_first" totalcount="5" value="0000?00000?010010??0????12000?101000???000???1000000000000101?010001000000?000?0??000??000?10010110?2000000?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Osbornodon_renjiei_last" spec="Sequence" taxon="Osbornodon_renjiei_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Osbornodon_sesnoni_first" spec="Sequence" taxon="Osbornodon_sesnoni_first" totalcount="5" value="?000?00030?010010??0????12000?101000???000???1000000000000101?000001000000?010?0?????????????????10??????0?????0000000?????01234"/>
+        <sequence id="morpho_seq_Osbornodon_sesnoni_last" spec="Sequence" taxon="Osbornodon_sesnoni_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Otarocyon_cooki_first" spec="Sequence" taxon="Otarocyon_cooki_first" totalcount="5" value="0000?00?00?000000??000???1010?10000000010000?1000211010010001?000300010000?000?10000200?00?0?112110021??100??0?0?00000000??01234"/>
+        <sequence id="morpho_seq_Otarocyon_cooki_last" spec="Sequence" taxon="Otarocyon_cooki_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Otarocyon_macdonaldi_first" spec="Sequence" taxon="Otarocyon_macdonaldi_first" totalcount="5" value="0000?00?00?000000??000???1010?10000000010000?1000211010010001?000300010000?000?100?0100?00?0?112110021??100??0?0000000?????01234"/>
+        <sequence id="morpho_seq_Otarocyon_macdonaldi_last" spec="Sequence" taxon="Otarocyon_macdonaldi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Oxetocyon_cuspidatus_first" spec="Sequence" taxon="Oxetocyon_cuspidatus_first" totalcount="5" value="0???????00?000?10??000???0010?10200110020000?1000011010010001?000000000000?000?00??0000?00?0??1?11???????????0?0?0000??????01234"/>
+        <sequence id="morpho_seq_Paracynarctus_kelloggi_first" spec="Sequence" taxon="Paracynarctus_kelloggi_first" totalcount="5" value="0001?00101?000010??000???0001?10200110010010?1010111001000101?101000001000?020?0???0000?00?0?010111021??100??0?1?00001?????01234"/>
+        <sequence id="morpho_seq_Paracynarctus_kelloggi_last" spec="Sequence" taxon="Paracynarctus_kelloggi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Paracynarctus_sinclairi_first" spec="Sequence" taxon="Paracynarctus_sinclairi_first" totalcount="5" value="000??0?101?000010??000???0002?10200110010010?10101110010001?1?101000001000?020?010?0000?00?0?010111021??100??0?1?00101?????01234"/>
+        <sequence id="morpho_seq_Paraenhydrocyon_josephi_first" spec="Sequence" taxon="Paraenhydrocyon_josephi_first" totalcount="5" value="0000?00000?000010??0????12000?101000???000???1000000000000001?000001000000?00001??000????0?10010110?0010000?10?0100000?????01234"/>
+        <sequence id="morpho_seq_Paraenhydrocyon_josephi_last" spec="Sequence" taxon="Paraenhydrocyon_josephi_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Paraenhydrocyon_robustus_first" spec="Sequence" taxon="Paraenhydrocyon_robustus_first" totalcount="5" value="???????130?000000??0????12000?101000???000???1100100000010001?000?01?000???0?0??????0????????????10??????0?????0100000?????01234"/>
+        <sequence id="morpho_seq_Paraenhydrocyon_wallovianus_first" spec="Sequence" taxon="Paraenhydrocyon_wallovianus_first" totalcount="5" value="0000?00130?000000??0????12000?111000???000???1200100000020001?010001000000?000????0?0??110?10010110?001000??11?0100000?????01234"/>
+        <sequence id="morpho_seq_Paraenhydrocyon_wallovianus_last" spec="Sequence" taxon="Paraenhydrocyon_wallovianus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Paratomarctus_euthos_first" spec="Sequence" taxon="Paratomarctus_euthos_first" totalcount="5" value="0002?00?00?000000??000???2030?10000110000010?1000111100000001?0?00010010?0?0311010?0000000?1?010111021??100??0?0?00010?1???01234"/>
+        <sequence id="morpho_seq_Paratomarctus_euthos_last" spec="Sequence" taxon="Paratomarctus_euthos_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Paratomarctus_temerarius_first" spec="Sequence" taxon="Paratomarctus_temerarius_first" totalcount="5" value="0002?00?00?000000??000???2030?10000110000010?1000111100000001?0?000?0010?0?031?010?0000?00?1?010111021??100??0?0?00000?????01234"/>
+        <sequence id="morpho_seq_Paratomarctus_temerarius_last" spec="Sequence" taxon="Paratomarctus_temerarius_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Philotrox_condoni_first" spec="Sequence" taxon="Philotrox_condoni_first" totalcount="5" value="0000?00110?000010??0????12010?101000???000???1101000000010201?0?0001000001?0001???000???10?11011110?2100100?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Philotrox_condoni_last" spec="Sequence" taxon="Philotrox_condoni_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_achoros_first" spec="Sequence" taxon="Phlaocyon_achoros_first" totalcount="5" value="0???????00?000?00??000???1012?10000121020010?1010011101000011?0?030000?000?0??????0???????????1?11?????????????0?0000??????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_annectens_first" spec="Sequence" taxon="Phlaocyon_annectens_first" totalcount="5" value="0000?00?00?000000??000???0001?10000110020010?1010011101000001?01030000?000?000????????????????1?11?????????????0?00000?????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_latidens_first" spec="Sequence" taxon="Phlaocyon_latidens_first" totalcount="5" value="0???????00?000010??000???0001?10000110020010?1010010001000101?0?0000000000?000?00000000?00?0?011110021??100????0?00000?????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_latidens_last" spec="Sequence" taxon="Phlaocyon_latidens_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_leucosteus_first" spec="Sequence" taxon="Phlaocyon_leucosteus_first" totalcount="5" value="0100?10?00?200000??000???1002?10000110020010?1010011101000021?010300000000?000010010000?00?0?010110021??100??0?0?000000000?01234"/>
+        <sequence id="morpho_seq_Phlaocyon_leucosteus_last" spec="Sequence" taxon="Phlaocyon_leucosteus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_mariae_first" spec="Sequence" taxon="Phlaocyon_mariae_first" totalcount="5" value="0??0????10?000?00????????10?2?10000010020?10?10?0?11101000201?02030000?000?0??????????????????1?11?????????????0?00????????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_marslandensis_first" spec="Sequence" taxon="Phlaocyon_marslandensis_first" totalcount="5" value="0100?10?00?2000?0??000???1002?10000110020010?1010011101000011?0?0300000000?010?100?0000?00?0??1?11?????????????0?00000000??01234"/>
+        <sequence id="morpho_seq_Phlaocyon_minor_first" spec="Sequence" taxon="Phlaocyon_minor_first" totalcount="5" value="0000?00?00?000010??000???0000?10000110010010?1010010001000101?000000000000?000?000?0100?00?0?010110021??100??0?0?00000000??01234"/>
+        <sequence id="morpho_seq_Phlaocyon_minor_last" spec="Sequence" taxon="Phlaocyon_minor_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_multicuspus_first" spec="Sequence" taxon="Phlaocyon_multicuspus_first" totalcount="5" value="000?????00??00??0????????1012?10000121020110?10?0?1????0????1?0?0300000000?010?000?0000?00?0?010110021??100????????????????01234"/>
+        <sequence id="morpho_seq_Phlaocyon_yatkolai_first" spec="Sequence" taxon="Phlaocyon_yatkolai_first" totalcount="5" value="0????00?10?000100??000???????????????????????1100011101000001?0?030000?000?0??????1???????????1?11???????????0?0?00000?????01234"/>
+        <sequence id="morpho_seq_Prohesperocyon_wilsoni_first" spec="Sequence" taxon="Prohesperocyon_wilsoni_first" totalcount="5" value="?????00030?000010??0????00000?101000???010???1000000002000000?0101?000000000000?00000??000?0011011000000000?00?0000100?????01234"/>
+        <sequence id="morpho_seq_Protepicyon_raki_first" spec="Sequence" taxon="Protepicyon_raki_first" totalcount="5" value="0002?00?00?000000??100???2140?11000110000010?1001111100000001?0?00000010?0?0311010?0000?00?1?011111121??100??0?0?01000?????01234"/>
+        <sequence id="morpho_seq_Protomarctus_optatus_first" spec="Sequence" taxon="Protomarctus_optatus_first" totalcount="5" value="0002?00?00?000010??000???0030?10000110000010?1000111100000001?0?00000010?0?030?01010000?00?1?010111021??100??0?0?00000?????01234"/>
+        <sequence id="morpho_seq_Protomarctus_optatus_last" spec="Sequence" taxon="Protomarctus_optatus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Psalidocyon_marianae_first" spec="Sequence" taxon="Psalidocyon_marianae_first" totalcount="5" value="0002?00?00?200010??000???0030?10000110000010?1000111100030001?0?00010010?0?020?01000000?00?0?010111021??100??0?0?000000?0??01234"/>
+        <sequence id="morpho_seq_Rhizocyon_oregonensis_first" spec="Sequence" taxon="Rhizocyon_oregonensis_first" totalcount="5" value="0000?00?00?000010??000???0000?100001000?0010?1000010000000001?000000000000?000?000?0000?00?0?010110000??100????0?00000?????01234"/>
+        <sequence id="morpho_seq_Sunkahetanka_geringensis_first" spec="Sequence" taxon="Sunkahetanka_geringensis_first" totalcount="5" value="0000?00110?000010??0????12000?101000???000???1101000001010201?000001000000?000????000??100?11010110?2100000?00?0000000?????01234"/>
+        <sequence id="morpho_seq_Sunkahetanka_geringensis_last" spec="Sequence" taxon="Sunkahetanka_geringensis_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Tephrocyon_rurestris_first" spec="Sequence" taxon="Tephrocyon_rurestris_first" totalcount="5" value="0?????0?00?000010??000???0030?10000110000010?1000111100000101?0?000?0010?0?030?01??0000?00?1?010111021??100??0?0?00000?????01234"/>
+        <sequence id="morpho_seq_Tephrocyon_rurestris_last" spec="Sequence" taxon="Tephrocyon_rurestris_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Tomarctus_brevirostris_first" spec="Sequence" taxon="Tomarctus_brevirostris_first" totalcount="5" value="0002?00?10?000010??000???0130?11000110000010?1001111100000001?0000000010?0?030101010000?10?1?010111021??100??0?0?00000?????01234"/>
+        <sequence id="morpho_seq_Tomarctus_brevirostris_last" spec="Sequence" taxon="Tomarctus_brevirostris_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Tomarctus_hippophaga_first" spec="Sequence" taxon="Tomarctus_hippophaga_first" totalcount="5" value="0002?00?10?000010??000???0030?10000110000010?1001111100000001?0000000010?0?030101010000?00?1?010111021??100??0?0?000000?0??01234"/>
+        <sequence id="morpho_seq_Tomarctus_hippophaga_last" spec="Sequence" taxon="Tomarctus_hippophaga_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Urocyon_cinereoargenteus_first" spec="Sequence" taxon="Urocyon_cinereoargenteus_first" totalcount="5" value="00002001311110000000??00000000100?021??1?02?01010111101130121110010000001000000?00002??00110??10111?201000000002?1?1??1110101234"/>
+        <sequence id="morpho_seq_Urocyon_cinereoargenteus_last" spec="Sequence" taxon="Urocyon_cinereoargenteus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Urocyon_citrinus_first" spec="Sequence" taxon="Urocyon_citrinus_first" totalcount="5" value="0?????01311110000000??00?0000??00????????0???101011110113012111001?00?0?10?0?0????????????????10111??0?????????1???1???????01234"/>
+        <sequence id="morpho_seq_Urocyon_galushai_first" spec="Sequence" taxon="Urocyon_galushai_first" totalcount="5" value="0?????01311110000000??0?000000100?021??1?0???101?11??01?3011111?01?00?0?10?0?0????????????????10111?2??????????1???1??11???01234"/>
+        <sequence id="morpho_seq_Urocyon_minicephalus_first" spec="Sequence" taxon="Urocyon_minicephalus_first" totalcount="5" value="0?????01311110000000??00000000100?021??1?00??101011110113012111001000?001000000?0000???00110??10111?211000000002?0?1??11???01234"/>
+        <sequence id="morpho_seq_Urocyon_webbi_first" spec="Sequence" taxon="Urocyon_webbi_first" totalcount="5" value="0?????01311110000000??00000000?????????1?0???101011100103011011?01?00?0?10?0?00???????????????10111?2??????????0???1???????01234"/>
+        <sequence id="morpho_seq_Vulpes_stenognathus_first" spec="Sequence" taxon="Vulpes_stenognathus_first" totalcount="5" value="00001000311010010000??00000001100?001??1?00?01000111000100101010010000011000100?00000??00110??10111?2110000?0000???1??1110?01234"/>
+        <sequence id="morpho_seq_Vulpes_stenognathus_last" spec="Sequence" taxon="Vulpes_stenognathus_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Xenocyon_falconeri_first" spec="Sequence" taxon="Xenocyon_falconeri_first" totalcount="5" value="0100?001311010011100??10100001100?100??1?02?0110111110011000101001?00?0?10?0?0??????0????1????10111?2????????010???1???????01234"/>
+        <sequence id="morpho_seq_Xenocyon_falconeri_last" spec="Sequence" taxon="Xenocyon_falconeri_last" totalcount="5" value="???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????01234"/>
+        <sequence id="morpho_seq_Xenocyon_texanus_first" spec="Sequence" taxon="Xenocyon_texanus_first" totalcount="5" value="01001001311010010100??10100001111?100??1?02?01101111102010201010030000001000300?10??0??1?110??10111?220210000010?0?1???????01234"/>
+        <userDataType id="StandardData.0" spec="beast.base.evolution.datatype.StandardData" ambiguities="" nrOfStates="5"/>
+    </data>
+
+    <taxonset id="TaxonSet.certain" spec="TaxonSet">
+        <taxon id="Canis_latrans_last" spec="Taxon"/>
+        <taxon id="Canis_lupus_last" spec="Taxon"/>
+        <taxon id="Cuon_alpinus_last" spec="Taxon"/>
+        <taxon id="Lycaon_pictus_last" spec="Taxon"/>
+        <taxon id="Urocyon_cinereoargenteus_last" spec="Taxon"/>
+    </taxonset>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+
+    <run id="mcmc" spec="MCMC" chainLength="1e+09" numInitializationAttempts="100000000">
+        <state id="state" spec="State" storeEvery="1e+06">
+            <tree id="Tree.t:tree" spec="sr.evolution.tree.SRTree" nodetype="sr.evolution.tree.SRNode" name="stateNode">
+                <trait id="dateTrait.t:tree" spec="beast.base.evolution.tree.TraitSet" traitname="date-backward" value="
+                Aelurodon_asthenostylus_first = 18.9068789672852,
+                Aelurodon_asthenostylus_last = 14.5850129142823,
+                Aelurodon_ferox_first = 14.9072163142194,
+                Aelurodon_ferox_last = 12.8790529163554,
+                Aelurodon_mcgrewi_first = 15.1438717557536,
+                Aelurodon_stirtoni_first = 14.7062162651308,
+                Aelurodon_stirtoni_last = 10.3355212645605,
+                Aelurodon_taxoides_first = 18.0973757208348,
+                Aelurodon_taxoides_last = 4.29378156105522,
+                Aenocyon_dirus_first = 1.20285463574738,
+                Aenocyon_dirus_last = 0.0348442485086387,
+                Archaeocyon_falkenbachi_first = 22.7693131048512,
+                Archaeocyon_leptodus_first = 33.0750733711291,
+                Archaeocyon_leptodus_last = 25.4678483139351,
+                Archaeocyon_pavidus_first = 33.0141301474767,
+                Archaeocyon_pavidus_last = 23.6596636940795,
+                Borophagus_diversidens_first = 2.6554846384516,
+                Borophagus_diversidens_last = 2.06417961757723,
+                Borophagus_dudleyi_first = 7.61872701444663,
+                Borophagus_dudleyi_last = 4.51844345038594,
+                Borophagus_hilli_first = 8.75277865347453,
+                Borophagus_hilli_last = 2.79404464946128,
+                Borophagus_littoralis_first = 11.97636394531,
+                Borophagus_littoralis_last = 8.32015019996744,
+                Borophagus_orc_first = 9.48402138804086,
+                Borophagus_orc_last = 5.12672057593684,
+                Borophagus_parvus_first = 6.11296741245314,
+                Borophagus_pugnator_first = 10.4987298205262,
+                Borophagus_pugnator_last = 9.92938083745539,
+                Borophagus_secundus_first = 13.2887618004344,
+                Borophagus_secundus_last = 8.17350904601626,
+                Caedocyon_tedfordi_first = 30.0991589776357,
+                Canis_armbrusteri_first = 0.912196252483642,
+                Canis_armbrusteri_last = 0.0976931372008519,
+                Canis_edwardii_first = 2.8149503490366,
+                Canis_edwardii_last = 0.64055520419497,
+                Canis_latrans_first = 2.48097969697416,
+                Canis_latrans_last = 0,
+                Canis_lepophagus_first = 4.17571505594533,
+                Canis_lepophagus_last = 2.23157179628476,
+                Canis_lupus_first = 2.71353721804544,
+                Canis_lupus_last = 0,
+                Canis_thooides_first = 4.8281739507569,
+                Carpocyon_compressus_first = 14.9382321201591,
+                Carpocyon_compressus_last = 14.5921320132882,
+                Carpocyon_limosus_first = 7.04216699674726,
+                Carpocyon_robustus_first = 12.8880923897494,
+                Carpocyon_webbi_first = 14.1273373150663,
+                Carpocyon_webbi_last = 9.68763387999497,
+                Cerdocyon_texanus_first = 7.56186968227848,
+                Cerdocyon_texanus_last = 3.45982432332821,
+                Cormocyon_copei_first = 29.7831461708527,
+                Cormocyon_copei_last = 16.9688874096633,
+                Cormocyon_haydeni_first = 27.1825680160546,
+                Cormocyon_haydeni_last = 24.4277407463104,
+                Cuon_alpinus_first = 0.811199790149927,
+                Cuon_alpinus_last = 0,
+                Cynarctoides_acridens_first = 22.7004204570828,
+                Cynarctoides_acridens_last = 14.4635717521259,
+                Cynarctoides_emryi_first = 20.038665322233,
+                Cynarctoides_gawnae_first = 17.954272271092,
+                Cynarctoides_harlowi_first = 20.8687003605138,
+                Cynarctoides_lemur_first = 28.1960074794013,
+                Cynarctoides_lemur_last = 25.8878998838901,
+                Cynarctoides_luskensis_first = 22.1842856214382,
+                Cynarctoides_roii_first = 26.7856832709629,
+                Cynarctus_crucidens_first = 11.8915791271068,
+                Cynarctus_crucidens_last = 9.97714449750818,
+                Cynarctus_galushai_first = 14.4914757972094,
+                Cynarctus_marylandica_first = 15.8477332424419,
+                Cynarctus_saxatilis_first = 14.5980099326721,
+                Cynarctus_voorhiesi_first = 11.882435596711,
+                Cynodesmus_martini_first = 28.7821295051603,
+                Cynodesmus_thooides_first = 31.7195069974521,
+                Cynodesmus_thooides_last = 28.8736441530264,
+                Desmocyon_matthewi_first = 18.1481077499362,
+                Desmocyon_thomsoni_first = 24.5979106946918,
+                Desmocyon_thomsoni_last = 18.355931030279,
+                Ectopocynus_antiquus_first = 32.2604650228284,
+                Ectopocynus_antiquus_last = 23.7759163038037,
+                Ectopocynus_intermedius_first = 22.4177041958994,
+                Ectopocynus_simplicidens_first = 16.0242623162642,
+                Enhydrocyon_basilatus_first = 21.2967945597647,
+                Enhydrocyon_basilatus_last = 20.5550862721658,
+                Enhydrocyon_crassidens_first = 27.7512122196611,
+                Enhydrocyon_crassidens_last = 24.0766731260158,
+                Enhydrocyon_pahinsintewakpa_first = 27.240804385813,
+                Enhydrocyon_pahinsintewakpa_last = 23.4760318543203,
+                Enhydrocyon_stenocephalus_first = 26.3958369447617,
+                Enhydrocyon_stenocephalus_last = 22.8094663104523,
+                Epicyon_aelurodontoides_first = 7.05786985238083,
+                Epicyon_haydeni_first = 13.9911302910023,
+                Epicyon_haydeni_last = 8.00091280606575,
+                Epicyon_saevus_first = 15.1590201766486,
+                Epicyon_saevus_last = 5.96452081394382,
+                Eucyon_davisi_first = 8.9018919238979,
+                Eucyon_davisi_last = 2.12791558122262,
+                Eucyon_ferox_first = 6.77952750651166,
+                Eucyon_ferox_last = 4.72210645689629,
+                Euoplocyon_brachygnathus_first = 14.1240852154815,
+                Euoplocyon_spissidens_first = 19.1476922642114,
+                Hesperocyon_coloradensis_first = 33.3854466972873,
+                Hesperocyon_gregarius_first = 34.9155943519436,
+                Hesperocyon_gregarius_last = 22.9277507518721,
+                Leptocyon_douglassi_first = 28.9935995320091,
+                Leptocyon_douglassi_last = 20.8367654735771,
+                Leptocyon_gregorii_first = 22.9392452453193,
+                Leptocyon_leidyi_first = 22.8685355327255,
+                Leptocyon_leidyi_last = 14.4850132794562,
+                Leptocyon_matthewi_first = 10.3097544977907,
+                Leptocyon_matthewi_last = 9.02119889613175,
+                Leptocyon_mollis_first = 27.7952394411666,
+                Leptocyon_vafer_first = 18.7039387709601,
+                Leptocyon_vafer_last = 10.3047443166608,
+                Leptocyon_vulpinus_first = 23.9416444567731,
+                Leptocyon_vulpinus_last = 18.4633083094656,
+                Lycaon_pictus_first = 1.81466486043734,
+                Lycaon_pictus_last = 0,
+                Mesocyon_brachyops_first = 30.3031208858127,
+                Mesocyon_brachyops_last = 25.3622713793442,
+                Mesocyon_coryphaeus_first = 30.7736191960983,
+                Mesocyon_coryphaeus_last = 21.6326862371906,
+                Mesocyon_temnodon_first = 33.7350934915245,
+                Mesocyon_temnodon_last = 20.9975016254559,
+                Metalopex_macconnelli_first = 12.1545084272977,
+                Metalopex_macconnelli_last = 9.05823568077758,
+                Metalopex_merriami_first = 12.1531569290906,
+                Metalopex_merriami_last = 5.16143155070022,
+                Metatomarctus_canavus_first = 16.9586378494208,
+                Metatomarctus_canavus_last = 16.7392736850355,
+                Microtomarctus_conferta_first = 18.9514339464251,
+                Microtomarctus_conferta_last = 13.7504385641753,
+                Osbornodon_brachypus_first = 21.9219287731196,
+                Osbornodon_brachypus_last = 16.9134314271016,
+                Osbornodon_fricki_first = 18.5892322644871,
+                Osbornodon_fricki_last = 14.3625412173895,
+                Osbornodon_iamonensis_first = 22.677732096836,
+                Osbornodon_iamonensis_last = 16.8890146674449,
+                Osbornodon_renjiei_first = 33.3135668735951,
+                Osbornodon_renjiei_last = 33.2465479765786,
+                Osbornodon_sesnoni_first = 32.0672468018718,
+                Osbornodon_sesnoni_last = 26.9933548283996,
+                Otarocyon_cooki_first = 27.7784929319285,
+                Otarocyon_cooki_last = 24.3120735744472,
+                Otarocyon_macdonaldi_first = 35.7993245011428,
+                Otarocyon_macdonaldi_last = 33.5374264231883,
+                Oxetocyon_cuspidatus_first = 31.6833519957261,
+                Paracynarctus_kelloggi_first = 17.4735629135417,
+                Paracynarctus_kelloggi_last = 13.315449819017,
+                Paracynarctus_sinclairi_first = 14.8372648756648,
+                Paraenhydrocyon_josephi_first = 26.4779751209542,
+                Paraenhydrocyon_josephi_last = 21.2499672071706,
+                Paraenhydrocyon_robustus_first = 23.2967704042629,
+                Paraenhydrocyon_wallovianus_first = 25.3426255723345,
+                Paraenhydrocyon_wallovianus_last = 24.5442620223947,
+                Paratomarctus_euthos_first = 16.7458312872727,
+                Paratomarctus_euthos_last = 13.2588274713606,
+                Paratomarctus_temerarius_first = 18.9180198714742,
+                Paratomarctus_temerarius_last = 8.4039972896222,
+                Philotrox_condoni_first = 26.5722356287995,
+                Philotrox_condoni_last = 23.9936274443349,
+                Phlaocyon_achoros_first = 24.4735032456485,
+                Phlaocyon_annectens_first = 21.2266289350856,
+                Phlaocyon_latidens_first = 31.7110028221039,
+                Phlaocyon_latidens_last = 26.9071361280046,
+                Phlaocyon_leucosteus_first = 23.0329949363088,
+                Phlaocyon_leucosteus_last = 16.7413958839746,
+                Phlaocyon_mariae_first = 19.9108204279887,
+                Phlaocyon_marslandensis_first = 20.376887974781,
+                Phlaocyon_minor_first = 28.8586939966306,
+                Phlaocyon_minor_last = 20.0897711390257,
+                Phlaocyon_multicuspus_first = 23.7503206557385,
+                Phlaocyon_yatkolai_first = 16.0815467183106,
+                Prohesperocyon_wilsoni_first = 35.7379633498611,
+                Protepicyon_raki_first = 15.5661271852977,
+                Protomarctus_optatus_first = 20.0742035256582,
+                Protomarctus_optatus_last = 15.4508342765016,
+                Psalidocyon_marianae_first = 14.5305243425607,
+                Rhizocyon_oregonensis_first = 27.3463821697049,
+                Sunkahetanka_geringensis_first = 28.8797991283471,
+                Sunkahetanka_geringensis_last = 28.1254882466336,
+                Tephrocyon_rurestris_first = 16.9913148796931,
+                Tephrocyon_rurestris_last = 14.377070502385,
+                Tomarctus_brevirostris_first = 16.9328990713926,
+                Tomarctus_brevirostris_last = 14.2665460669464,
+                Tomarctus_hippophaga_first = 20.0308404641971,
+                Tomarctus_hippophaga_last = 14.4939413421578,
+                Urocyon_cinereoargenteus_first = 2.20125442519505,
+                Urocyon_cinereoargenteus_last = 0,
+                Urocyon_citrinus_first = 2.31388705781382,
+                Urocyon_galushai_first = 4.71899072674569,
+                Urocyon_minicephalus_first = 0.69025058329571,
+                Urocyon_webbi_first = 9.5038979951758,
+                Vulpes_stenognathus_first = 9.49509148853831,
+                Vulpes_stenognathus_last = 1.20402220201213,
+                Xenocyon_falconeri_first = 2.56961426747078,
+                Xenocyon_falconeri_last = 0.452707949230056,
+                Xenocyon_texanus_first = 0.81815093438141">
+                    <taxa id="TaxonSet.morpho2" spec="TaxonSet">
+                        <alignment id="morpho2" spec="FilteredAlignment" filter="1,3,6-8,13-15,17-19,21,24-25,27,30,32,34-35,38-39,44-46,49,51-53,56,58,61-63,65,67-70,72-76,79-84,87-95,97-99,106,108-111,113-121,123-125">
+                            <data idref="morpho"/>
+                            <userDataType id="morphDataType.morpho2" spec="beast.base.evolution.datatype.StandardData" ambiguities="" nrOfStates="2"/>
+                        </alignment>
+                    </taxa>
+                </trait>
+                <taxonset idref="TaxonSet.morpho2">
+                <stratigraphicRange id="r1" spec="StratigraphicRange" firstOccurrence="@Aelurodon_asthenostylus_first" lastOccurrence="@Aelurodon_asthenostylus_last"/>
+                <stratigraphicRange id="r2" spec="StratigraphicRange" firstOccurrence="@Aelurodon_ferox_first" lastOccurrence="@Aelurodon_ferox_last"/>
+                <stratigraphicRange id="r3" spec="StratigraphicRange" firstOccurrence="@Aelurodon_mcgrewi_first" lastOccurrence="@Aelurodon_mcgrewi_first"/>
+                <stratigraphicRange id="r4" spec="StratigraphicRange" firstOccurrence="@Aelurodon_stirtoni_first" lastOccurrence="@Aelurodon_stirtoni_last"/>
+                <stratigraphicRange id="r5" spec="StratigraphicRange" firstOccurrence="@Aelurodon_taxoides_first" lastOccurrence="@Aelurodon_taxoides_last"/>
+                <stratigraphicRange id="r6" spec="StratigraphicRange" firstOccurrence="@Aenocyon_dirus_first" lastOccurrence="@Aenocyon_dirus_last"/>
+                <stratigraphicRange id="r7" spec="StratigraphicRange" firstOccurrence="@Archaeocyon_falkenbachi_first" lastOccurrence="@Archaeocyon_falkenbachi_first"/>
+                <stratigraphicRange id="r8" spec="StratigraphicRange" firstOccurrence="@Archaeocyon_leptodus_first" lastOccurrence="@Archaeocyon_leptodus_last"/>
+                <stratigraphicRange id="r9" spec="StratigraphicRange" firstOccurrence="@Archaeocyon_pavidus_first" lastOccurrence="@Archaeocyon_pavidus_last"/>
+                <stratigraphicRange id="r10" spec="StratigraphicRange" firstOccurrence="@Borophagus_diversidens_first" lastOccurrence="@Borophagus_diversidens_last"/>
+                <stratigraphicRange id="r11" spec="StratigraphicRange" firstOccurrence="@Borophagus_dudleyi_first" lastOccurrence="@Borophagus_dudleyi_last"/>
+                <stratigraphicRange id="r12" spec="StratigraphicRange" firstOccurrence="@Borophagus_hilli_first" lastOccurrence="@Borophagus_hilli_last"/>
+                <stratigraphicRange id="r13" spec="StratigraphicRange" firstOccurrence="@Borophagus_littoralis_first" lastOccurrence="@Borophagus_littoralis_last"/>
+                <stratigraphicRange id="r14" spec="StratigraphicRange" firstOccurrence="@Borophagus_orc_first" lastOccurrence="@Borophagus_orc_last"/>
+                <stratigraphicRange id="r15" spec="StratigraphicRange" firstOccurrence="@Borophagus_parvus_first" lastOccurrence="@Borophagus_parvus_first"/>
+                <stratigraphicRange id="r16" spec="StratigraphicRange" firstOccurrence="@Borophagus_pugnator_first" lastOccurrence="@Borophagus_pugnator_last"/>
+                <stratigraphicRange id="r17" spec="StratigraphicRange" firstOccurrence="@Borophagus_secundus_first" lastOccurrence="@Borophagus_secundus_last"/>
+                <stratigraphicRange id="r18" spec="StratigraphicRange" firstOccurrence="@Caedocyon_tedfordi_first" lastOccurrence="@Caedocyon_tedfordi_first"/>
+                <stratigraphicRange id="r19" spec="StratigraphicRange" firstOccurrence="@Canis_armbrusteri_first" lastOccurrence="@Canis_armbrusteri_last"/>
+                <stratigraphicRange id="r20" spec="StratigraphicRange" firstOccurrence="@Canis_edwardii_first" lastOccurrence="@Canis_edwardii_last"/>
+                <stratigraphicRange id="r21" spec="StratigraphicRange" firstOccurrence="@Canis_latrans_first" lastOccurrence="@Canis_latrans_last"/>
+                <stratigraphicRange id="r22" spec="StratigraphicRange" firstOccurrence="@Canis_lepophagus_first" lastOccurrence="@Canis_lepophagus_last"/>
+                <stratigraphicRange id="r23" spec="StratigraphicRange" firstOccurrence="@Canis_lupus_first" lastOccurrence="@Canis_lupus_last"/>
+                <stratigraphicRange id="r24" spec="StratigraphicRange" firstOccurrence="@Canis_thooides_first" lastOccurrence="@Canis_thooides_first"/>
+                <stratigraphicRange id="r25" spec="StratigraphicRange" firstOccurrence="@Carpocyon_compressus_first" lastOccurrence="@Carpocyon_compressus_last"/>
+                <stratigraphicRange id="r26" spec="StratigraphicRange" firstOccurrence="@Carpocyon_limosus_first" lastOccurrence="@Carpocyon_limosus_first"/>
+                <stratigraphicRange id="r27" spec="StratigraphicRange" firstOccurrence="@Carpocyon_robustus_first" lastOccurrence="@Carpocyon_robustus_first"/>
+                <stratigraphicRange id="r28" spec="StratigraphicRange" firstOccurrence="@Carpocyon_webbi_first" lastOccurrence="@Carpocyon_webbi_last"/>
+                <stratigraphicRange id="r29" spec="StratigraphicRange" firstOccurrence="@Cerdocyon_texanus_first" lastOccurrence="@Cerdocyon_texanus_last"/>
+                <stratigraphicRange id="r30" spec="StratigraphicRange" firstOccurrence="@Cormocyon_copei_first" lastOccurrence="@Cormocyon_copei_last"/>
+                <stratigraphicRange id="r31" spec="StratigraphicRange" firstOccurrence="@Cormocyon_haydeni_first" lastOccurrence="@Cormocyon_haydeni_last"/>
+                <stratigraphicRange id="r32" spec="StratigraphicRange" firstOccurrence="@Cuon_alpinus_first" lastOccurrence="@Cuon_alpinus_last"/>
+                <stratigraphicRange id="r33" spec="StratigraphicRange" firstOccurrence="@Cynarctoides_acridens_first" lastOccurrence="@Cynarctoides_acridens_last"/>
+                <stratigraphicRange id="r34" spec="StratigraphicRange" firstOccurrence="@Cynarctoides_emryi_first" lastOccurrence="@Cynarctoides_emryi_first"/>
+                <stratigraphicRange id="r35" spec="StratigraphicRange" firstOccurrence="@Cynarctoides_gawnae_first" lastOccurrence="@Cynarctoides_gawnae_first"/>
+                <stratigraphicRange id="r36" spec="StratigraphicRange" firstOccurrence="@Cynarctoides_harlowi_first" lastOccurrence="@Cynarctoides_harlowi_first"/>
+                <stratigraphicRange id="r37" spec="StratigraphicRange" firstOccurrence="@Cynarctoides_lemur_first" lastOccurrence="@Cynarctoides_lemur_last"/>
+                <stratigraphicRange id="r38" spec="StratigraphicRange" firstOccurrence="@Cynarctoides_luskensis_first" lastOccurrence="@Cynarctoides_luskensis_first"/>
+                <stratigraphicRange id="r39" spec="StratigraphicRange" firstOccurrence="@Cynarctoides_roii_first" lastOccurrence="@Cynarctoides_roii_first"/>
+                <stratigraphicRange id="r40" spec="StratigraphicRange" firstOccurrence="@Cynarctus_crucidens_first" lastOccurrence="@Cynarctus_crucidens_last"/>
+                <stratigraphicRange id="r41" spec="StratigraphicRange" firstOccurrence="@Cynarctus_galushai_first" lastOccurrence="@Cynarctus_galushai_first"/>
+                <stratigraphicRange id="r42" spec="StratigraphicRange" firstOccurrence="@Cynarctus_marylandica_first" lastOccurrence="@Cynarctus_marylandica_first"/>
+                <stratigraphicRange id="r43" spec="StratigraphicRange" firstOccurrence="@Cynarctus_saxatilis_first" lastOccurrence="@Cynarctus_saxatilis_first"/>
+                <stratigraphicRange id="r44" spec="StratigraphicRange" firstOccurrence="@Cynarctus_voorhiesi_first" lastOccurrence="@Cynarctus_voorhiesi_first"/>
+                <stratigraphicRange id="r45" spec="StratigraphicRange" firstOccurrence="@Cynodesmus_martini_first" lastOccurrence="@Cynodesmus_martini_first"/>
+                <stratigraphicRange id="r46" spec="StratigraphicRange" firstOccurrence="@Cynodesmus_thooides_first" lastOccurrence="@Cynodesmus_thooides_last"/>
+                <stratigraphicRange id="r47" spec="StratigraphicRange" firstOccurrence="@Desmocyon_matthewi_first" lastOccurrence="@Desmocyon_matthewi_first"/>
+                <stratigraphicRange id="r48" spec="StratigraphicRange" firstOccurrence="@Desmocyon_thomsoni_first" lastOccurrence="@Desmocyon_thomsoni_last"/>
+                <stratigraphicRange id="r49" spec="StratigraphicRange" firstOccurrence="@Ectopocynus_antiquus_first" lastOccurrence="@Ectopocynus_antiquus_last"/>
+                <stratigraphicRange id="r50" spec="StratigraphicRange" firstOccurrence="@Ectopocynus_intermedius_first" lastOccurrence="@Ectopocynus_intermedius_first"/>
+                <stratigraphicRange id="r51" spec="StratigraphicRange" firstOccurrence="@Ectopocynus_simplicidens_first" lastOccurrence="@Ectopocynus_simplicidens_first"/>
+                <stratigraphicRange id="r52" spec="StratigraphicRange" firstOccurrence="@Enhydrocyon_basilatus_first" lastOccurrence="@Enhydrocyon_basilatus_last"/>
+                <stratigraphicRange id="r53" spec="StratigraphicRange" firstOccurrence="@Enhydrocyon_crassidens_first" lastOccurrence="@Enhydrocyon_crassidens_last"/>
+                <stratigraphicRange id="r54" spec="StratigraphicRange" firstOccurrence="@Enhydrocyon_pahinsintewakpa_first" lastOccurrence="@Enhydrocyon_pahinsintewakpa_last"/>
+                <stratigraphicRange id="r55" spec="StratigraphicRange" firstOccurrence="@Enhydrocyon_stenocephalus_first" lastOccurrence="@Enhydrocyon_stenocephalus_last"/>
+                <stratigraphicRange id="r56" spec="StratigraphicRange" firstOccurrence="@Epicyon_aelurodontoides_first" lastOccurrence="@Epicyon_aelurodontoides_first"/>
+                <stratigraphicRange id="r57" spec="StratigraphicRange" firstOccurrence="@Epicyon_haydeni_first" lastOccurrence="@Epicyon_haydeni_last"/>
+                <stratigraphicRange id="r58" spec="StratigraphicRange" firstOccurrence="@Epicyon_saevus_first" lastOccurrence="@Epicyon_saevus_last"/>
+                <stratigraphicRange id="r59" spec="StratigraphicRange" firstOccurrence="@Eucyon_davisi_first" lastOccurrence="@Eucyon_davisi_last"/>
+                <stratigraphicRange id="r60" spec="StratigraphicRange" firstOccurrence="@Eucyon_ferox_first" lastOccurrence="@Eucyon_ferox_last"/>
+                <stratigraphicRange id="r61" spec="StratigraphicRange" firstOccurrence="@Euoplocyon_brachygnathus_first" lastOccurrence="@Euoplocyon_brachygnathus_first"/>
+                <stratigraphicRange id="r62" spec="StratigraphicRange" firstOccurrence="@Euoplocyon_spissidens_first" lastOccurrence="@Euoplocyon_spissidens_first"/>
+                <stratigraphicRange id="r63" spec="StratigraphicRange" firstOccurrence="@Hesperocyon_coloradensis_first" lastOccurrence="@Hesperocyon_coloradensis_first"/>
+                <stratigraphicRange id="r64" spec="StratigraphicRange" firstOccurrence="@Hesperocyon_gregarius_first" lastOccurrence="@Hesperocyon_gregarius_last"/>
+                <stratigraphicRange id="r65" spec="StratigraphicRange" firstOccurrence="@Leptocyon_douglassi_first" lastOccurrence="@Leptocyon_douglassi_last"/>
+                <stratigraphicRange id="r66" spec="StratigraphicRange" firstOccurrence="@Leptocyon_gregorii_first" lastOccurrence="@Leptocyon_gregorii_first"/>
+                <stratigraphicRange id="r67" spec="StratigraphicRange" firstOccurrence="@Leptocyon_leidyi_first" lastOccurrence="@Leptocyon_leidyi_last"/>
+                <stratigraphicRange id="r68" spec="StratigraphicRange" firstOccurrence="@Leptocyon_matthewi_first" lastOccurrence="@Leptocyon_matthewi_last"/>
+                <stratigraphicRange id="r69" spec="StratigraphicRange" firstOccurrence="@Leptocyon_mollis_first" lastOccurrence="@Leptocyon_mollis_first"/>
+                <stratigraphicRange id="r70" spec="StratigraphicRange" firstOccurrence="@Leptocyon_vafer_first" lastOccurrence="@Leptocyon_vafer_last"/>
+                <stratigraphicRange id="r71" spec="StratigraphicRange" firstOccurrence="@Leptocyon_vulpinus_first" lastOccurrence="@Leptocyon_vulpinus_last"/>
+                <stratigraphicRange id="r72" spec="StratigraphicRange" firstOccurrence="@Lycaon_pictus_first" lastOccurrence="@Lycaon_pictus_last"/>
+                <stratigraphicRange id="r73" spec="StratigraphicRange" firstOccurrence="@Mesocyon_brachyops_first" lastOccurrence="@Mesocyon_brachyops_last"/>
+                <stratigraphicRange id="r74" spec="StratigraphicRange" firstOccurrence="@Mesocyon_coryphaeus_first" lastOccurrence="@Mesocyon_coryphaeus_last"/>
+                <stratigraphicRange id="r75" spec="StratigraphicRange" firstOccurrence="@Mesocyon_temnodon_first" lastOccurrence="@Mesocyon_temnodon_last"/>
+                <stratigraphicRange id="r76" spec="StratigraphicRange" firstOccurrence="@Metalopex_macconnelli_first" lastOccurrence="@Metalopex_macconnelli_last"/>
+                <stratigraphicRange id="r77" spec="StratigraphicRange" firstOccurrence="@Metalopex_merriami_first" lastOccurrence="@Metalopex_merriami_last"/>
+                <stratigraphicRange id="r78" spec="StratigraphicRange" firstOccurrence="@Metatomarctus_canavus_first" lastOccurrence="@Metatomarctus_canavus_last"/>
+                <stratigraphicRange id="r79" spec="StratigraphicRange" firstOccurrence="@Microtomarctus_conferta_first" lastOccurrence="@Microtomarctus_conferta_last"/>
+                <stratigraphicRange id="r80" spec="StratigraphicRange" firstOccurrence="@Osbornodon_brachypus_first" lastOccurrence="@Osbornodon_brachypus_last"/>
+                <stratigraphicRange id="r81" spec="StratigraphicRange" firstOccurrence="@Osbornodon_fricki_first" lastOccurrence="@Osbornodon_fricki_last"/>
+                <stratigraphicRange id="r82" spec="StratigraphicRange" firstOccurrence="@Osbornodon_iamonensis_first" lastOccurrence="@Osbornodon_iamonensis_last"/>
+                <stratigraphicRange id="r83" spec="StratigraphicRange" firstOccurrence="@Osbornodon_renjiei_first" lastOccurrence="@Osbornodon_renjiei_last"/>
+                <stratigraphicRange id="r84" spec="StratigraphicRange" firstOccurrence="@Osbornodon_sesnoni_first" lastOccurrence="@Osbornodon_sesnoni_last"/>
+                <stratigraphicRange id="r85" spec="StratigraphicRange" firstOccurrence="@Otarocyon_cooki_first" lastOccurrence="@Otarocyon_cooki_last"/>
+                <stratigraphicRange id="r86" spec="StratigraphicRange" firstOccurrence="@Otarocyon_macdonaldi_first" lastOccurrence="@Otarocyon_macdonaldi_last"/>
+                <stratigraphicRange id="r87" spec="StratigraphicRange" firstOccurrence="@Oxetocyon_cuspidatus_first" lastOccurrence="@Oxetocyon_cuspidatus_first"/>
+                <stratigraphicRange id="r88" spec="StratigraphicRange" firstOccurrence="@Paracynarctus_kelloggi_first" lastOccurrence="@Paracynarctus_kelloggi_last"/>
+                <stratigraphicRange id="r89" spec="StratigraphicRange" firstOccurrence="@Paracynarctus_sinclairi_first" lastOccurrence="@Paracynarctus_sinclairi_first"/>
+                <stratigraphicRange id="r90" spec="StratigraphicRange" firstOccurrence="@Paraenhydrocyon_josephi_first" lastOccurrence="@Paraenhydrocyon_josephi_last"/>
+                <stratigraphicRange id="r91" spec="StratigraphicRange" firstOccurrence="@Paraenhydrocyon_robustus_first" lastOccurrence="@Paraenhydrocyon_robustus_first"/>
+                <stratigraphicRange id="r92" spec="StratigraphicRange" firstOccurrence="@Paraenhydrocyon_wallovianus_first" lastOccurrence="@Paraenhydrocyon_wallovianus_last"/>
+                <stratigraphicRange id="r93" spec="StratigraphicRange" firstOccurrence="@Paratomarctus_euthos_first" lastOccurrence="@Paratomarctus_euthos_last"/>
+                <stratigraphicRange id="r94" spec="StratigraphicRange" firstOccurrence="@Paratomarctus_temerarius_first" lastOccurrence="@Paratomarctus_temerarius_last"/>
+                <stratigraphicRange id="r95" spec="StratigraphicRange" firstOccurrence="@Philotrox_condoni_first" lastOccurrence="@Philotrox_condoni_last"/>
+                <stratigraphicRange id="r96" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_achoros_first" lastOccurrence="@Phlaocyon_achoros_first"/>
+                <stratigraphicRange id="r97" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_annectens_first" lastOccurrence="@Phlaocyon_annectens_first"/>
+                <stratigraphicRange id="r98" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_latidens_first" lastOccurrence="@Phlaocyon_latidens_last"/>
+                <stratigraphicRange id="r99" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_leucosteus_first" lastOccurrence="@Phlaocyon_leucosteus_last"/>
+                <stratigraphicRange id="r100" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_mariae_first" lastOccurrence="@Phlaocyon_mariae_first"/>
+                <stratigraphicRange id="r101" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_marslandensis_first" lastOccurrence="@Phlaocyon_marslandensis_first"/>
+                <stratigraphicRange id="r102" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_minor_first" lastOccurrence="@Phlaocyon_minor_last"/>
+                <stratigraphicRange id="r103" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_multicuspus_first" lastOccurrence="@Phlaocyon_multicuspus_first"/>
+                <stratigraphicRange id="r104" spec="StratigraphicRange" firstOccurrence="@Phlaocyon_yatkolai_first" lastOccurrence="@Phlaocyon_yatkolai_first"/>
+                <stratigraphicRange id="r105" spec="StratigraphicRange" firstOccurrence="@Prohesperocyon_wilsoni_first" lastOccurrence="@Prohesperocyon_wilsoni_first"/>
+                <stratigraphicRange id="r106" spec="StratigraphicRange" firstOccurrence="@Protepicyon_raki_first" lastOccurrence="@Protepicyon_raki_first"/>
+                <stratigraphicRange id="r107" spec="StratigraphicRange" firstOccurrence="@Protomarctus_optatus_first" lastOccurrence="@Protomarctus_optatus_last"/>
+                <stratigraphicRange id="r108" spec="StratigraphicRange" firstOccurrence="@Psalidocyon_marianae_first" lastOccurrence="@Psalidocyon_marianae_first"/>
+                <stratigraphicRange id="r109" spec="StratigraphicRange" firstOccurrence="@Rhizocyon_oregonensis_first" lastOccurrence="@Rhizocyon_oregonensis_first"/>
+                <stratigraphicRange id="r110" spec="StratigraphicRange" firstOccurrence="@Sunkahetanka_geringensis_first" lastOccurrence="@Sunkahetanka_geringensis_last"/>
+                <stratigraphicRange id="r111" spec="StratigraphicRange" firstOccurrence="@Tephrocyon_rurestris_first" lastOccurrence="@Tephrocyon_rurestris_last"/>
+                <stratigraphicRange id="r112" spec="StratigraphicRange" firstOccurrence="@Tomarctus_brevirostris_first" lastOccurrence="@Tomarctus_brevirostris_last"/>
+                <stratigraphicRange id="r113" spec="StratigraphicRange" firstOccurrence="@Tomarctus_hippophaga_first" lastOccurrence="@Tomarctus_hippophaga_last"/>
+                <stratigraphicRange id="r114" spec="StratigraphicRange" firstOccurrence="@Urocyon_cinereoargenteus_first" lastOccurrence="@Urocyon_cinereoargenteus_last"/>
+                <stratigraphicRange id="r115" spec="StratigraphicRange" firstOccurrence="@Urocyon_citrinus_first" lastOccurrence="@Urocyon_citrinus_first"/>
+                <stratigraphicRange id="r116" spec="StratigraphicRange" firstOccurrence="@Urocyon_galushai_first" lastOccurrence="@Urocyon_galushai_first"/>
+                <stratigraphicRange id="r117" spec="StratigraphicRange" firstOccurrence="@Urocyon_minicephalus_first" lastOccurrence="@Urocyon_minicephalus_first"/>
+                <stratigraphicRange id="r118" spec="StratigraphicRange" firstOccurrence="@Urocyon_webbi_first" lastOccurrence="@Urocyon_webbi_first"/>
+                <stratigraphicRange id="r119" spec="StratigraphicRange" firstOccurrence="@Vulpes_stenognathus_first" lastOccurrence="@Vulpes_stenognathus_last"/>
+                <stratigraphicRange id="r120" spec="StratigraphicRange" firstOccurrence="@Xenocyon_falconeri_first" lastOccurrence="@Xenocyon_falconeri_last"/>
+                <stratigraphicRange id="r121" spec="StratigraphicRange" firstOccurrence="@Xenocyon_texanus_first" lastOccurrence="@Xenocyon_texanus_first"/>
+                </taxonset>
+            </tree>
+            <stateNode id="mutationRate.s:morpho2" spec="parameter.RealParameter">1</stateNode>
+            <stateNode id="mutationRate.s:morpho3" spec="parameter.RealParameter">1</stateNode>
+            <stateNode id="mutationRate.s:morpho4" spec="parameter.RealParameter">1</stateNode>
+            <stateNode id="mutationRate.s:morpho5" spec="parameter.RealParameter">1</stateNode>
+            <stateNode id="diversificationRateFBD.t:tree" spec="parameter.RealParameter" lower="0">0.0181277423334308</stateNode>
+            <stateNode id="turnoverFBD.t:tree" spec="parameter.RealParameter" lower="0" upper="1">0.989625104695441</stateNode>
+            <stateNode id="samplingProportionFBD.t:tree" spec="parameter.RealParameter" lower="0" upper="1">0.124975972578958</stateNode>
+            <stateNode id="originFBD.t:tree" spec="parameter.RealParameter" lower="0">50</stateNode>
+            <stateNode id="ucldMean.c:morpho" spec="parameter.RealParameter" lower="0">0.0147611093518435</stateNode>
+            <stateNode id="ucldStdev.c:morpho" spec="parameter.RealParameter" lower="0">0.0746709911168589</stateNode>
+            <stateNode id="rateCategories.c:morpho" spec="parameter.IntegerParameter" dimension="240">1</stateNode>
+        </state>
+        <init id="RandomTree.t:tree" initial="@Tree.t:tree" estimate="false" taxonset="@TaxonSet.morpho2" spec="RandomSRangeTree" nodetype="sr.evolution.tree.SRNode">
+            <populationModel id="ConstantPopulation0.t:tree" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:tree" name="popSize">1.0</parameter>
+            </populationModel>
+            <stratigraphicRange idref="r1"/>
+            <stratigraphicRange idref="r2"/>
+            <stratigraphicRange idref="r3"/>
+            <stratigraphicRange idref="r4"/>
+            <stratigraphicRange idref="r5"/>
+            <stratigraphicRange idref="r6"/>
+            <stratigraphicRange idref="r7"/>
+            <stratigraphicRange idref="r8"/>
+            <stratigraphicRange idref="r9"/>
+            <stratigraphicRange idref="r10"/>
+            <stratigraphicRange idref="r11"/>
+            <stratigraphicRange idref="r12"/>
+            <stratigraphicRange idref="r13"/>
+            <stratigraphicRange idref="r14"/>
+            <stratigraphicRange idref="r15"/>
+            <stratigraphicRange idref="r16"/>
+            <stratigraphicRange idref="r17"/>
+            <stratigraphicRange idref="r18"/>
+            <stratigraphicRange idref="r19"/>
+            <stratigraphicRange idref="r20"/>
+            <stratigraphicRange idref="r21"/>
+            <stratigraphicRange idref="r22"/>
+            <stratigraphicRange idref="r23"/>
+            <stratigraphicRange idref="r24"/>
+            <stratigraphicRange idref="r25"/>
+            <stratigraphicRange idref="r26"/>
+            <stratigraphicRange idref="r27"/>
+            <stratigraphicRange idref="r28"/>
+            <stratigraphicRange idref="r29"/>
+            <stratigraphicRange idref="r30"/>
+            <stratigraphicRange idref="r31"/>
+            <stratigraphicRange idref="r32"/>
+            <stratigraphicRange idref="r33"/>
+            <stratigraphicRange idref="r34"/>
+            <stratigraphicRange idref="r35"/>
+            <stratigraphicRange idref="r36"/>
+            <stratigraphicRange idref="r37"/>
+            <stratigraphicRange idref="r38"/>
+            <stratigraphicRange idref="r39"/>
+            <stratigraphicRange idref="r40"/>
+            <stratigraphicRange idref="r41"/>
+            <stratigraphicRange idref="r42"/>
+            <stratigraphicRange idref="r43"/>
+            <stratigraphicRange idref="r44"/>
+            <stratigraphicRange idref="r45"/>
+            <stratigraphicRange idref="r46"/>
+            <stratigraphicRange idref="r47"/>
+            <stratigraphicRange idref="r48"/>
+            <stratigraphicRange idref="r49"/>
+            <stratigraphicRange idref="r50"/>
+            <stratigraphicRange idref="r51"/>
+            <stratigraphicRange idref="r52"/>
+            <stratigraphicRange idref="r53"/>
+            <stratigraphicRange idref="r54"/>
+            <stratigraphicRange idref="r55"/>
+            <stratigraphicRange idref="r56"/>
+            <stratigraphicRange idref="r57"/>
+            <stratigraphicRange idref="r58"/>
+            <stratigraphicRange idref="r59"/>
+            <stratigraphicRange idref="r60"/>
+            <stratigraphicRange idref="r61"/>
+            <stratigraphicRange idref="r62"/>
+            <stratigraphicRange idref="r63"/>
+            <stratigraphicRange idref="r64"/>
+            <stratigraphicRange idref="r65"/>
+            <stratigraphicRange idref="r66"/>
+            <stratigraphicRange idref="r67"/>
+            <stratigraphicRange idref="r68"/>
+            <stratigraphicRange idref="r69"/>
+            <stratigraphicRange idref="r70"/>
+            <stratigraphicRange idref="r71"/>
+            <stratigraphicRange idref="r72"/>
+            <stratigraphicRange idref="r73"/>
+            <stratigraphicRange idref="r74"/>
+            <stratigraphicRange idref="r75"/>
+            <stratigraphicRange idref="r76"/>
+            <stratigraphicRange idref="r77"/>
+            <stratigraphicRange idref="r78"/>
+            <stratigraphicRange idref="r79"/>
+            <stratigraphicRange idref="r80"/>
+            <stratigraphicRange idref="r81"/>
+            <stratigraphicRange idref="r82"/>
+            <stratigraphicRange idref="r83"/>
+            <stratigraphicRange idref="r84"/>
+            <stratigraphicRange idref="r85"/>
+            <stratigraphicRange idref="r86"/>
+            <stratigraphicRange idref="r87"/>
+            <stratigraphicRange idref="r88"/>
+            <stratigraphicRange idref="r89"/>
+            <stratigraphicRange idref="r90"/>
+            <stratigraphicRange idref="r91"/>
+            <stratigraphicRange idref="r92"/>
+            <stratigraphicRange idref="r93"/>
+            <stratigraphicRange idref="r94"/>
+            <stratigraphicRange idref="r95"/>
+            <stratigraphicRange idref="r96"/>
+            <stratigraphicRange idref="r97"/>
+            <stratigraphicRange idref="r98"/>
+            <stratigraphicRange idref="r99"/>
+            <stratigraphicRange idref="r100"/>
+            <stratigraphicRange idref="r101"/>
+            <stratigraphicRange idref="r102"/>
+            <stratigraphicRange idref="r103"/>
+            <stratigraphicRange idref="r104"/>
+            <stratigraphicRange idref="r105"/>
+            <stratigraphicRange idref="r106"/>
+            <stratigraphicRange idref="r107"/>
+            <stratigraphicRange idref="r108"/>
+            <stratigraphicRange idref="r109"/>
+            <stratigraphicRange idref="r110"/>
+            <stratigraphicRange idref="r111"/>
+            <stratigraphicRange idref="r112"/>
+            <stratigraphicRange idref="r113"/>
+            <stratigraphicRange idref="r114"/>
+            <stratigraphicRange idref="r115"/>
+            <stratigraphicRange idref="r116"/>
+            <stratigraphicRange idref="r117"/>
+            <stratigraphicRange idref="r118"/>
+            <stratigraphicRange idref="r119"/>
+            <stratigraphicRange idref="r120"/>
+            <stratigraphicRange idref="r121"/>
+        </init>
+        <init spec="feast.parameter.RandomRealParameter" initial="@diversificationRateFBD.t:tree">
+            <distr idref="prior_diversificationRateFBD.t:tree_Exponential"/>
+        </init>
+        <init spec="feast.parameter.RandomRealParameter" initial="@turnoverFBD.t:tree">
+            <distr idref="prior_turnoverFBD.t:tree_Beta"/>
+        </init>
+        <init spec="feast.parameter.RandomRealParameter" initial="@samplingProportionFBD.t:tree">
+            <distr idref="prior_samplingProportionFBD.t:tree_Beta"/>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="srfbd" spec="sr.speciation.SRangesBirthDeathModel" tree="@Tree.t:tree" conditionOnRhoSampling="true" origin="@originFBD.t:tree" diversificationRate="@diversificationRateFBD.t:tree" samplingProportion="@samplingProportionFBD.t:tree" turnover="@turnoverFBD.t:tree" rho="0.138888888888889" removalProbability="0"/>
+                <prior id="prior_diversificationRateFBD.t:tree" name = "distribution" x="@diversificationRateFBD.t:tree">
+                    <Exponential id="prior_diversificationRateFBD.t:tree_Exponential" name="distr" mean="0.0767"/>
+                </prior>
+                <prior id="prior_turnoverFBD.t:tree" name = "distribution" x="@turnoverFBD.t:tree">
+                    <Beta id="prior_turnoverFBD.t:tree_Beta" name="distr" alpha="2" beta="1"/>
+                </prior>
+                <prior id="prior_samplingProportionFBD.t:tree" name = "distribution" x="@samplingProportionFBD.t:tree">
+                    <Beta id="prior_samplingProportionFBD.t:tree_Beta" name="distr" alpha="3.1" beta="6.9"/>
+                </prior>
+                <prior id="prior_originFBD.t:tree" name = "distribution" x="@originFBD.t:tree">
+                    <Exponential id="prior_originFBD.t:tree_Exponential" name="distr" mean="9.67" offset="37"/>
+                </prior>
+                <prior id="prior_ucldMean.c:morpho" name = "distribution" x="@ucldMean.c:morpho">
+                    <LogNormal id="prior_ucldMean.c:morpho_LogNormal" name="distr" M="-4" S="0.5"/>
+                </prior>
+                <prior id="prior_ucldStdev.c:morpho" name = "distribution" x="@ucldStdev.c:morpho">
+                    <Gamma id="prior_ucldStdev.c:morpho_Gamma" name="distr" alpha="0.5396" beta="0.3819"/>
+                </prior>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.morpho2" spec="TreeLikelihood" tree="@Tree.t:tree" data="@morpho2">
+                    <siteModel id="SiteModel.s:morpho2" spec="SiteModel" mutationRate="@mutationRate.s:morpho2" gammaCategoryCount="0" shape="1" proportionInvariant="0">
+                        <substModel id="LewisMK.s:morpho2" spec="morphmodels.evolution.substitutionmodel.LewisMK" datatype="@morphDataType.morpho2"/>
+                    </siteModel>
+                    <branchRateModel id="RelaxedClock.c:morpho" spec="beast.base.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ucldMean.c:morpho" rateCategories="@rateCategories.c:morpho" tree="@Tree.t:tree">
+                        <LogNormal id="LogNormalDistributionModel.c:morpho2" M="1" S="@ucldStdev.c:morpho" meanInRealSpace="true" name="distr"/>
+                    </branchRateModel>
+                </distribution>
+                <distribution id="treeLikelihood.morpho3" spec="TreeLikelihood" tree="@Tree.t:tree" branchRateModel="@RelaxedClock.c:morpho">
+                    <data id="morpho3" spec="FilteredAlignment" data="@morpho" ascertained="true" excludefrom="36" excludeto="39" filter="2,5,10-12,16,22-23,29,31,33,36-37,41-43,47-48,50,54-55,59-60,64,71,78,85-86,100-104,107,112,122,124-126">
+                        <userDataType id="morphDataType.morpho3" spec="beast.base.evolution.datatype.StandardData" ambiguities="" nrOfStates="3"/>
+                    </data>
+                    <siteModel id="SiteModel.s:morpho3" spec="SiteModel" mutationRate="@mutationRate.s:morpho3" gammaCategoryCount="0" shape="1" proportionInvariant="0">
+                        <substModel id="LewisMK.s:morpho3" spec="morphmodels.evolution.substitutionmodel.LewisMK" datatype="@morphDataType.morpho3"/>
+                    </siteModel>
+                </distribution>
+                <distribution id="treeLikelihood.morpho4" spec="TreeLikelihood" tree="@Tree.t:tree" branchRateModel="@RelaxedClock.c:morpho">
+                    <data id="morpho4" spec="FilteredAlignment" data="@morpho" ascertained="true" excludefrom="7" excludeto="11" filter="4,9,20,26,40,57,96,124-127">
+                        <userDataType id="morphDataType.morpho4" spec="beast.base.evolution.datatype.StandardData" ambiguities="" nrOfStates="4"/>
+                    </data>
+                    <siteModel id="SiteModel.s:morpho4" spec="SiteModel" mutationRate="@mutationRate.s:morpho4" gammaCategoryCount="0" shape="1" proportionInvariant="0">
+                        <substModel id="LewisMK.s:morpho4" spec="morphmodels.evolution.substitutionmodel.LewisMK" datatype="@morphDataType.morpho4"/>
+                    </siteModel>
+                </distribution>
+                <distribution id="treeLikelihood.morpho5" spec="TreeLikelihood" tree="@Tree.t:tree" branchRateModel="@RelaxedClock.c:morpho">
+                    <data id="morpho5" spec="FilteredAlignment" data="@morpho" ascertained="true" excludefrom="4" excludeto="9" filter="28,66,77,105,124-128">
+                        <userDataType id="morphDataType.morpho5" spec="beast.base.evolution.datatype.StandardData" ambiguities="" nrOfStates="5"/>
+                    </data>
+                    <siteModel id="SiteModel.s:morpho5" spec="SiteModel" mutationRate="@mutationRate.s:morpho5" gammaCategoryCount="0" shape="1" proportionInvariant="0">
+                        <substModel id="LewisMK.s:morpho5" spec="morphmodels.evolution.substitutionmodel.LewisMK" datatype="@morphDataType.morpho5"/>
+                    </siteModel>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="FixMeanMutationRatesOperator" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.75" weight="2">
+            <parameter idref="mutationRate.s:morpho2"/>
+            <parameter idref="mutationRate.s:morpho3"/>
+            <parameter idref="mutationRate.s:morpho4"/>
+            <parameter idref="mutationRate.s:morpho5"/>
+            <weightvector id="weightparameter" spec="parameter.IntegerParameter" dimension="4" estimate="false" lower="0" upper="0" value="76 36 7 4"/>
+        </operator>
+        <operator id="ucldStdevScaler.c:morpho" spec="ScaleOperator" parameter="@ucldStdev.c:morpho" scaleFactor="0.5" weight="3"/>
+        <operator id="CategoriesRandomWalk.c:morpho" spec="operator.IntRandomWalkOperator" parameter="@rateCategories.c:morpho" weight="10" windowSize="1"/>
+        <operator id="CategoriesSwapOperator.c:morpho" spec="operator.SwapOperator" intparameter="@rateCategories.c:morpho" weight="10"/>
+        <operator id="CategoriesUniform.c:morpho" spec="operator.UniformOperator" parameter="@rateCategories.c:morpho" weight="10"/>
+        <operator id="ucldMeanScaler.c:morpho" spec="ScaleOperator" parameter="@ucldMean.c:morpho" scaleFactor="0.5" weight="1"/>
+        <operator id="relaxedUpDownOperator.c:morpho" spec="operator.UpDownOperator" scaleFactor="0.75" weight="3" up="@ucldMean.c:morpho" down="@Tree.t:tree"/>
+        <operator id="originScalerFBD.t:tree" spec="ScaleOperator" parameter="@originFBD.t:tree" weight="3"/>
+        <operator id="divRateScalerFBD.t:tree" spec="ScaleOperator" parameter="@diversificationRateFBD.t:tree" weight="10"/>
+        <operator id="turnoverScalerFBD.t:tree" spec="ScaleOperator" parameter="@turnoverFBD.t:tree" weight="10"/>
+        <operator id="samplingPScalerFBD.t:tree" spec="ScaleOperator" parameter="@samplingProportionFBD.t:tree" weight="10"/>
+        <operator id="SRTreeRootScaler" spec="SAScaleOperator" rootOnly="true" scaleFactor="0.95" tree="@Tree.t:tree" weight="1"/>
+        <operator id="SRWilsonBalding" spec="SRWilsonBalding" tree="@Tree.t:tree" weight="20"/>
+        <operator id="LeftRightChildSwap" spec="LeftRightChildSwap" tree="@Tree.t:tree" weight="3"/>
+        <operator id="LeafToSampledAncestorJump" spec="SRLeafToSampledAncestorJump" tree="@Tree.t:tree" weight="10"/>
+        <operator id="SRUniformOperator" spec="SAUniform" tree="@Tree.t:tree" weight="20"/>
+        <operator id="SRTreeScaler" spec="SAScaleOperator" scaleFactor="0.95" tree="@Tree.t:tree" weight="3"/>
+        <operator id="SRNodeDateSampler" spec="sa.evolution.operators.SampledNodeDateRandomWalker" windowSize="1" tree="@Tree.t:tree" weight="10">
+            <taxonset spec="TaxonSet">
+                <taxon id="Aelurodon_asthenostylus_first" spec="Taxon"/>
+                <taxon id="Aelurodon_asthenostylus_last" spec="Taxon"/>
+                <taxon id="Aelurodon_ferox_first" spec="Taxon"/>
+                <taxon id="Aelurodon_ferox_last" spec="Taxon"/>
+                <taxon id="Aelurodon_mcgrewi_first" spec="Taxon"/>
+                <taxon id="Aelurodon_stirtoni_first" spec="Taxon"/>
+                <taxon id="Aelurodon_stirtoni_last" spec="Taxon"/>
+                <taxon id="Aelurodon_taxoides_first" spec="Taxon"/>
+                <taxon id="Aelurodon_taxoides_last" spec="Taxon"/>
+                <taxon id="Aenocyon_dirus_first" spec="Taxon"/>
+                <taxon id="Aenocyon_dirus_last" spec="Taxon"/>
+                <taxon id="Archaeocyon_falkenbachi_first" spec="Taxon"/>
+                <taxon id="Archaeocyon_leptodus_first" spec="Taxon"/>
+                <taxon id="Archaeocyon_leptodus_last" spec="Taxon"/>
+                <taxon id="Archaeocyon_pavidus_first" spec="Taxon"/>
+                <taxon id="Archaeocyon_pavidus_last" spec="Taxon"/>
+                <taxon id="Borophagus_diversidens_first" spec="Taxon"/>
+                <taxon id="Borophagus_diversidens_last" spec="Taxon"/>
+                <taxon id="Borophagus_dudleyi_first" spec="Taxon"/>
+                <taxon id="Borophagus_dudleyi_last" spec="Taxon"/>
+                <taxon id="Borophagus_hilli_first" spec="Taxon"/>
+                <taxon id="Borophagus_hilli_last" spec="Taxon"/>
+                <taxon id="Borophagus_littoralis_first" spec="Taxon"/>
+                <taxon id="Borophagus_littoralis_last" spec="Taxon"/>
+                <taxon id="Borophagus_orc_first" spec="Taxon"/>
+                <taxon id="Borophagus_orc_last" spec="Taxon"/>
+                <taxon id="Borophagus_parvus_first" spec="Taxon"/>
+                <taxon id="Borophagus_pugnator_first" spec="Taxon"/>
+                <taxon id="Borophagus_pugnator_last" spec="Taxon"/>
+                <taxon id="Borophagus_secundus_first" spec="Taxon"/>
+                <taxon id="Borophagus_secundus_last" spec="Taxon"/>
+                <taxon id="Caedocyon_tedfordi_first" spec="Taxon"/>
+                <taxon id="Canis_armbrusteri_first" spec="Taxon"/>
+                <taxon id="Canis_armbrusteri_last" spec="Taxon"/>
+                <taxon id="Canis_edwardii_first" spec="Taxon"/>
+                <taxon id="Canis_edwardii_last" spec="Taxon"/>
+                <taxon id="Canis_latrans_first" spec="Taxon"/>
+                <taxon id="Canis_lepophagus_first" spec="Taxon"/>
+                <taxon id="Canis_lepophagus_last" spec="Taxon"/>
+                <taxon id="Canis_lupus_first" spec="Taxon"/>
+                <taxon id="Canis_thooides_first" spec="Taxon"/>
+                <taxon id="Carpocyon_compressus_first" spec="Taxon"/>
+                <taxon id="Carpocyon_compressus_last" spec="Taxon"/>
+                <taxon id="Carpocyon_limosus_first" spec="Taxon"/>
+                <taxon id="Carpocyon_robustus_first" spec="Taxon"/>
+                <taxon id="Carpocyon_webbi_first" spec="Taxon"/>
+                <taxon id="Carpocyon_webbi_last" spec="Taxon"/>
+                <taxon id="Cerdocyon_texanus_first" spec="Taxon"/>
+                <taxon id="Cerdocyon_texanus_last" spec="Taxon"/>
+                <taxon id="Cormocyon_copei_first" spec="Taxon"/>
+                <taxon id="Cormocyon_copei_last" spec="Taxon"/>
+                <taxon id="Cormocyon_haydeni_first" spec="Taxon"/>
+                <taxon id="Cormocyon_haydeni_last" spec="Taxon"/>
+                <taxon id="Cuon_alpinus_first" spec="Taxon"/>
+                <taxon id="Cynarctoides_acridens_first" spec="Taxon"/>
+                <taxon id="Cynarctoides_acridens_last" spec="Taxon"/>
+                <taxon id="Cynarctoides_emryi_first" spec="Taxon"/>
+                <taxon id="Cynarctoides_gawnae_first" spec="Taxon"/>
+                <taxon id="Cynarctoides_harlowi_first" spec="Taxon"/>
+                <taxon id="Cynarctoides_lemur_first" spec="Taxon"/>
+                <taxon id="Cynarctoides_lemur_last" spec="Taxon"/>
+                <taxon id="Cynarctoides_luskensis_first" spec="Taxon"/>
+                <taxon id="Cynarctoides_roii_first" spec="Taxon"/>
+                <taxon id="Cynarctus_crucidens_first" spec="Taxon"/>
+                <taxon id="Cynarctus_crucidens_last" spec="Taxon"/>
+                <taxon id="Cynarctus_galushai_first" spec="Taxon"/>
+                <taxon id="Cynarctus_marylandica_first" spec="Taxon"/>
+                <taxon id="Cynarctus_saxatilis_first" spec="Taxon"/>
+                <taxon id="Cynarctus_voorhiesi_first" spec="Taxon"/>
+                <taxon id="Cynodesmus_martini_first" spec="Taxon"/>
+                <taxon id="Cynodesmus_thooides_first" spec="Taxon"/>
+                <taxon id="Cynodesmus_thooides_last" spec="Taxon"/>
+                <taxon id="Desmocyon_matthewi_first" spec="Taxon"/>
+                <taxon id="Desmocyon_thomsoni_first" spec="Taxon"/>
+                <taxon id="Desmocyon_thomsoni_last" spec="Taxon"/>
+                <taxon id="Ectopocynus_antiquus_first" spec="Taxon"/>
+                <taxon id="Ectopocynus_antiquus_last" spec="Taxon"/>
+                <taxon id="Ectopocynus_intermedius_first" spec="Taxon"/>
+                <taxon id="Ectopocynus_simplicidens_first" spec="Taxon"/>
+                <taxon id="Enhydrocyon_basilatus_first" spec="Taxon"/>
+                <taxon id="Enhydrocyon_basilatus_last" spec="Taxon"/>
+                <taxon id="Enhydrocyon_crassidens_first" spec="Taxon"/>
+                <taxon id="Enhydrocyon_crassidens_last" spec="Taxon"/>
+                <taxon id="Enhydrocyon_pahinsintewakpa_first" spec="Taxon"/>
+                <taxon id="Enhydrocyon_pahinsintewakpa_last" spec="Taxon"/>
+                <taxon id="Enhydrocyon_stenocephalus_first" spec="Taxon"/>
+                <taxon id="Enhydrocyon_stenocephalus_last" spec="Taxon"/>
+                <taxon id="Epicyon_aelurodontoides_first" spec="Taxon"/>
+                <taxon id="Epicyon_haydeni_first" spec="Taxon"/>
+                <taxon id="Epicyon_haydeni_last" spec="Taxon"/>
+                <taxon id="Epicyon_saevus_first" spec="Taxon"/>
+                <taxon id="Epicyon_saevus_last" spec="Taxon"/>
+                <taxon id="Eucyon_davisi_first" spec="Taxon"/>
+                <taxon id="Eucyon_davisi_last" spec="Taxon"/>
+                <taxon id="Eucyon_ferox_first" spec="Taxon"/>
+                <taxon id="Eucyon_ferox_last" spec="Taxon"/>
+                <taxon id="Euoplocyon_brachygnathus_first" spec="Taxon"/>
+                <taxon id="Euoplocyon_spissidens_first" spec="Taxon"/>
+                <taxon id="Hesperocyon_coloradensis_first" spec="Taxon"/>
+                <taxon id="Hesperocyon_gregarius_first" spec="Taxon"/>
+                <taxon id="Hesperocyon_gregarius_last" spec="Taxon"/>
+                <taxon id="Leptocyon_douglassi_first" spec="Taxon"/>
+                <taxon id="Leptocyon_douglassi_last" spec="Taxon"/>
+                <taxon id="Leptocyon_gregorii_first" spec="Taxon"/>
+                <taxon id="Leptocyon_leidyi_first" spec="Taxon"/>
+                <taxon id="Leptocyon_leidyi_last" spec="Taxon"/>
+                <taxon id="Leptocyon_matthewi_first" spec="Taxon"/>
+                <taxon id="Leptocyon_matthewi_last" spec="Taxon"/>
+                <taxon id="Leptocyon_mollis_first" spec="Taxon"/>
+                <taxon id="Leptocyon_vafer_first" spec="Taxon"/>
+                <taxon id="Leptocyon_vafer_last" spec="Taxon"/>
+                <taxon id="Leptocyon_vulpinus_first" spec="Taxon"/>
+                <taxon id="Leptocyon_vulpinus_last" spec="Taxon"/>
+                <taxon id="Lycaon_pictus_first" spec="Taxon"/>
+                <taxon id="Mesocyon_brachyops_first" spec="Taxon"/>
+                <taxon id="Mesocyon_brachyops_last" spec="Taxon"/>
+                <taxon id="Mesocyon_coryphaeus_first" spec="Taxon"/>
+                <taxon id="Mesocyon_coryphaeus_last" spec="Taxon"/>
+                <taxon id="Mesocyon_temnodon_first" spec="Taxon"/>
+                <taxon id="Mesocyon_temnodon_last" spec="Taxon"/>
+                <taxon id="Metalopex_macconnelli_first" spec="Taxon"/>
+                <taxon id="Metalopex_macconnelli_last" spec="Taxon"/>
+                <taxon id="Metalopex_merriami_first" spec="Taxon"/>
+                <taxon id="Metalopex_merriami_last" spec="Taxon"/>
+                <taxon id="Metatomarctus_canavus_first" spec="Taxon"/>
+                <taxon id="Metatomarctus_canavus_last" spec="Taxon"/>
+                <taxon id="Microtomarctus_conferta_first" spec="Taxon"/>
+                <taxon id="Microtomarctus_conferta_last" spec="Taxon"/>
+                <taxon id="Osbornodon_brachypus_first" spec="Taxon"/>
+                <taxon id="Osbornodon_brachypus_last" spec="Taxon"/>
+                <taxon id="Osbornodon_fricki_first" spec="Taxon"/>
+                <taxon id="Osbornodon_fricki_last" spec="Taxon"/>
+                <taxon id="Osbornodon_iamonensis_first" spec="Taxon"/>
+                <taxon id="Osbornodon_iamonensis_last" spec="Taxon"/>
+                <taxon id="Osbornodon_renjiei_first" spec="Taxon"/>
+                <taxon id="Osbornodon_renjiei_last" spec="Taxon"/>
+                <taxon id="Osbornodon_sesnoni_first" spec="Taxon"/>
+                <taxon id="Osbornodon_sesnoni_last" spec="Taxon"/>
+                <taxon id="Otarocyon_cooki_first" spec="Taxon"/>
+                <taxon id="Otarocyon_cooki_last" spec="Taxon"/>
+                <taxon id="Otarocyon_macdonaldi_first" spec="Taxon"/>
+                <taxon id="Otarocyon_macdonaldi_last" spec="Taxon"/>
+                <taxon id="Oxetocyon_cuspidatus_first" spec="Taxon"/>
+                <taxon id="Paracynarctus_kelloggi_first" spec="Taxon"/>
+                <taxon id="Paracynarctus_kelloggi_last" spec="Taxon"/>
+                <taxon id="Paracynarctus_sinclairi_first" spec="Taxon"/>
+                <taxon id="Paraenhydrocyon_josephi_first" spec="Taxon"/>
+                <taxon id="Paraenhydrocyon_josephi_last" spec="Taxon"/>
+                <taxon id="Paraenhydrocyon_robustus_first" spec="Taxon"/>
+                <taxon id="Paraenhydrocyon_wallovianus_first" spec="Taxon"/>
+                <taxon id="Paraenhydrocyon_wallovianus_last" spec="Taxon"/>
+                <taxon id="Paratomarctus_euthos_first" spec="Taxon"/>
+                <taxon id="Paratomarctus_euthos_last" spec="Taxon"/>
+                <taxon id="Paratomarctus_temerarius_first" spec="Taxon"/>
+                <taxon id="Paratomarctus_temerarius_last" spec="Taxon"/>
+                <taxon id="Philotrox_condoni_first" spec="Taxon"/>
+                <taxon id="Philotrox_condoni_last" spec="Taxon"/>
+                <taxon id="Phlaocyon_achoros_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_annectens_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_latidens_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_latidens_last" spec="Taxon"/>
+                <taxon id="Phlaocyon_leucosteus_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_leucosteus_last" spec="Taxon"/>
+                <taxon id="Phlaocyon_mariae_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_marslandensis_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_minor_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_minor_last" spec="Taxon"/>
+                <taxon id="Phlaocyon_multicuspus_first" spec="Taxon"/>
+                <taxon id="Phlaocyon_yatkolai_first" spec="Taxon"/>
+                <taxon id="Prohesperocyon_wilsoni_first" spec="Taxon"/>
+                <taxon id="Protepicyon_raki_first" spec="Taxon"/>
+                <taxon id="Protomarctus_optatus_first" spec="Taxon"/>
+                <taxon id="Protomarctus_optatus_last" spec="Taxon"/>
+                <taxon id="Psalidocyon_marianae_first" spec="Taxon"/>
+                <taxon id="Rhizocyon_oregonensis_first" spec="Taxon"/>
+                <taxon id="Sunkahetanka_geringensis_first" spec="Taxon"/>
+                <taxon id="Sunkahetanka_geringensis_last" spec="Taxon"/>
+                <taxon id="Tephrocyon_rurestris_first" spec="Taxon"/>
+                <taxon id="Tephrocyon_rurestris_last" spec="Taxon"/>
+                <taxon id="Tomarctus_brevirostris_first" spec="Taxon"/>
+                <taxon id="Tomarctus_brevirostris_last" spec="Taxon"/>
+                <taxon id="Tomarctus_hippophaga_first" spec="Taxon"/>
+                <taxon id="Tomarctus_hippophaga_last" spec="Taxon"/>
+                <taxon id="Urocyon_cinereoargenteus_first" spec="Taxon"/>
+                <taxon id="Urocyon_citrinus_first" spec="Taxon"/>
+                <taxon id="Urocyon_galushai_first" spec="Taxon"/>
+                <taxon id="Urocyon_minicephalus_first" spec="Taxon"/>
+                <taxon id="Urocyon_webbi_first" spec="Taxon"/>
+                <taxon id="Vulpes_stenognathus_first" spec="Taxon"/>
+                <taxon id="Vulpes_stenognathus_last" spec="Taxon"/>
+                <taxon id="Xenocyon_falconeri_first" spec="Taxon"/>
+                <taxon id="Xenocyon_falconeri_last" spec="Taxon"/>
+                <taxon id="Xenocyon_texanus_first" spec="Taxon"/>
+            </taxonset>
+            <samplingDates id="samplingDate_1" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_asthenostylus_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_2" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_asthenostylus_last" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_3" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_ferox_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_4" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_ferox_last" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_5" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_mcgrewi_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_6" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_stirtoni_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_7" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_stirtoni_last" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_8" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_taxoides_first" lower="13.6" upper="23.03"/>
+            <samplingDates id="samplingDate_9" spec="sa.evolution.tree.SamplingDate" taxon="@Aelurodon_taxoides_last" lower="3.6" upper="10.3"/>
+            <samplingDates id="samplingDate_10" spec="sa.evolution.tree.SamplingDate" taxon="@Aenocyon_dirus_first" lower="0.781" upper="3.6"/>
+            <samplingDates id="samplingDate_11" spec="sa.evolution.tree.SamplingDate" taxon="@Aenocyon_dirus_last" lower="0.0117" upper="0.126"/>
+            <samplingDates id="samplingDate_12" spec="sa.evolution.tree.SamplingDate" taxon="@Archaeocyon_falkenbachi_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_13" spec="sa.evolution.tree.SamplingDate" taxon="@Archaeocyon_leptodus_first" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_14" spec="sa.evolution.tree.SamplingDate" taxon="@Archaeocyon_leptodus_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_15" spec="sa.evolution.tree.SamplingDate" taxon="@Archaeocyon_pavidus_first" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_16" spec="sa.evolution.tree.SamplingDate" taxon="@Archaeocyon_pavidus_last" lower="23.03" upper="28.1"/>
+            <samplingDates id="samplingDate_17" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_diversidens_first" lower="1.806" upper="4.9"/>
+            <samplingDates id="samplingDate_18" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_diversidens_last" lower="1.8" upper="2.588"/>
+            <samplingDates id="samplingDate_19" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_dudleyi_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_20" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_dudleyi_last" lower="3.6" upper="5.333"/>
+            <samplingDates id="samplingDate_21" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_hilli_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_22" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_hilli_last" lower="1.8" upper="4.9"/>
+            <samplingDates id="samplingDate_23" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_littoralis_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_24" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_littoralis_last" lower="5.333" upper="11.608"/>
+            <samplingDates id="samplingDate_25" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_orc_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_26" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_orc_last" lower="3.6" upper="5.333"/>
+            <samplingDates id="samplingDate_27" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_parvus_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_28" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_pugnator_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_29" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_pugnator_last" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_30" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_secundus_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_31" spec="sa.evolution.tree.SamplingDate" taxon="@Borophagus_secundus_last" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_32" spec="sa.evolution.tree.SamplingDate" taxon="@Caedocyon_tedfordi_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_33" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_armbrusteri_first" lower="0.781" upper="1.806"/>
+            <samplingDates id="samplingDate_34" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_armbrusteri_last" lower="0.0117" upper="0.126"/>
+            <samplingDates id="samplingDate_35" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_edwardii_first" lower="1.806" upper="4.9"/>
+            <samplingDates id="samplingDate_36" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_edwardii_last" lower="0.3" upper="1.8"/>
+            <samplingDates id="samplingDate_37" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_latrans_first" lower="1.806" upper="4.9"/>
+            <samplingDates id="samplingDate_39" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_lepophagus_first" lower="1.8" upper="4.9"/>
+            <samplingDates id="samplingDate_40" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_lepophagus_last" lower="0.781" upper="2.588"/>
+            <samplingDates id="samplingDate_41" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_lupus_first" lower="2.588" upper="3.6"/>
+            <samplingDates id="samplingDate_43" spec="sa.evolution.tree.SamplingDate" taxon="@Canis_thooides_first" lower="1.8" upper="4.9"/>
+            <samplingDates id="samplingDate_44" spec="sa.evolution.tree.SamplingDate" taxon="@Carpocyon_compressus_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_45" spec="sa.evolution.tree.SamplingDate" taxon="@Carpocyon_compressus_last" lower="10.3" upper="15.97"/>
+            <samplingDates id="samplingDate_46" spec="sa.evolution.tree.SamplingDate" taxon="@Carpocyon_limosus_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_47" spec="sa.evolution.tree.SamplingDate" taxon="@Carpocyon_robustus_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_48" spec="sa.evolution.tree.SamplingDate" taxon="@Carpocyon_webbi_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_49" spec="sa.evolution.tree.SamplingDate" taxon="@Carpocyon_webbi_last" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_50" spec="sa.evolution.tree.SamplingDate" taxon="@Cerdocyon_texanus_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_51" spec="sa.evolution.tree.SamplingDate" taxon="@Cerdocyon_texanus_last" lower="1.8" upper="4.9"/>
+            <samplingDates id="samplingDate_52" spec="sa.evolution.tree.SamplingDate" taxon="@Cormocyon_copei_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_53" spec="sa.evolution.tree.SamplingDate" taxon="@Cormocyon_copei_last" lower="11" upper="23.03"/>
+            <samplingDates id="samplingDate_54" spec="sa.evolution.tree.SamplingDate" taxon="@Cormocyon_haydeni_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_55" spec="sa.evolution.tree.SamplingDate" taxon="@Cormocyon_haydeni_last" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_56" spec="sa.evolution.tree.SamplingDate" taxon="@Cuon_alpinus_first" lower="0.3" upper="2.588"/>
+            <samplingDates id="samplingDate_58" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_acridens_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_59" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_acridens_last" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_60" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_emryi_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_61" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_gawnae_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_62" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_harlowi_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_63" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_lemur_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_64" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_lemur_last" lower="20.43" upper="28.1"/>
+            <samplingDates id="samplingDate_65" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_luskensis_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_66" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctoides_roii_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_67" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctus_crucidens_first" lower="11.62" upper="13.82"/>
+            <samplingDates id="samplingDate_68" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctus_crucidens_last" lower="4.9" upper="11.608"/>
+            <samplingDates id="samplingDate_69" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctus_galushai_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_70" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctus_marylandica_first" lower="13.82" upper="15.97"/>
+            <samplingDates id="samplingDate_71" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctus_saxatilis_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_72" spec="sa.evolution.tree.SamplingDate" taxon="@Cynarctus_voorhiesi_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_73" spec="sa.evolution.tree.SamplingDate" taxon="@Cynodesmus_martini_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_74" spec="sa.evolution.tree.SamplingDate" taxon="@Cynodesmus_thooides_first" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_75" spec="sa.evolution.tree.SamplingDate" taxon="@Cynodesmus_thooides_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_76" spec="sa.evolution.tree.SamplingDate" taxon="@Desmocyon_matthewi_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_77" spec="sa.evolution.tree.SamplingDate" taxon="@Desmocyon_thomsoni_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_78" spec="sa.evolution.tree.SamplingDate" taxon="@Desmocyon_thomsoni_last" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_79" spec="sa.evolution.tree.SamplingDate" taxon="@Ectopocynus_antiquus_first" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_80" spec="sa.evolution.tree.SamplingDate" taxon="@Ectopocynus_antiquus_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_81" spec="sa.evolution.tree.SamplingDate" taxon="@Ectopocynus_intermedius_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_82" spec="sa.evolution.tree.SamplingDate" taxon="@Ectopocynus_simplicidens_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_83" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_basilatus_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_84" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_basilatus_last" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_85" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_crassidens_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_86" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_crassidens_last" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_87" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_pahinsintewakpa_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_88" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_pahinsintewakpa_last" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_89" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_stenocephalus_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_90" spec="sa.evolution.tree.SamplingDate" taxon="@Enhydrocyon_stenocephalus_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_91" spec="sa.evolution.tree.SamplingDate" taxon="@Epicyon_aelurodontoides_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_92" spec="sa.evolution.tree.SamplingDate" taxon="@Epicyon_haydeni_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_93" spec="sa.evolution.tree.SamplingDate" taxon="@Epicyon_haydeni_last" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_94" spec="sa.evolution.tree.SamplingDate" taxon="@Epicyon_saevus_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_95" spec="sa.evolution.tree.SamplingDate" taxon="@Epicyon_saevus_last" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_96" spec="sa.evolution.tree.SamplingDate" taxon="@Eucyon_davisi_first" lower="5.333" upper="11.608"/>
+            <samplingDates id="samplingDate_97" spec="sa.evolution.tree.SamplingDate" taxon="@Eucyon_davisi_last" lower="1.8" upper="3.6"/>
+            <samplingDates id="samplingDate_98" spec="sa.evolution.tree.SamplingDate" taxon="@Eucyon_ferox_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_99" spec="sa.evolution.tree.SamplingDate" taxon="@Eucyon_ferox_last" lower="1.8" upper="4.9"/>
+            <samplingDates id="samplingDate_100" spec="sa.evolution.tree.SamplingDate" taxon="@Euoplocyon_brachygnathus_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_101" spec="sa.evolution.tree.SamplingDate" taxon="@Euoplocyon_spissidens_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_102" spec="sa.evolution.tree.SamplingDate" taxon="@Hesperocyon_coloradensis_first" lower="33.3" upper="33.9"/>
+            <samplingDates id="samplingDate_103" spec="sa.evolution.tree.SamplingDate" taxon="@Hesperocyon_gregarius_first" lower="33.9" upper="37.2"/>
+            <samplingDates id="samplingDate_104" spec="sa.evolution.tree.SamplingDate" taxon="@Hesperocyon_gregarius_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_105" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_douglassi_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_106" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_douglassi_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_107" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_gregorii_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_108" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_leidyi_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_109" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_leidyi_last" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_110" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_matthewi_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_111" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_matthewi_last" lower="4.9" upper="13.6"/>
+            <samplingDates id="samplingDate_112" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_mollis_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_113" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_vafer_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_114" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_vafer_last" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_115" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_vulpinus_first" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_116" spec="sa.evolution.tree.SamplingDate" taxon="@Leptocyon_vulpinus_last" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_117" spec="sa.evolution.tree.SamplingDate" taxon="@Lycaon_pictus_first" lower="0.0117" upper="2.588"/>
+            <samplingDates id="samplingDate_119" spec="sa.evolution.tree.SamplingDate" taxon="@Mesocyon_brachyops_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_120" spec="sa.evolution.tree.SamplingDate" taxon="@Mesocyon_brachyops_last" lower="23.03" upper="28.1"/>
+            <samplingDates id="samplingDate_121" spec="sa.evolution.tree.SamplingDate" taxon="@Mesocyon_coryphaeus_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_122" spec="sa.evolution.tree.SamplingDate" taxon="@Mesocyon_coryphaeus_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_123" spec="sa.evolution.tree.SamplingDate" taxon="@Mesocyon_temnodon_first" lower="33.3" upper="33.9"/>
+            <samplingDates id="samplingDate_124" spec="sa.evolution.tree.SamplingDate" taxon="@Mesocyon_temnodon_last" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_125" spec="sa.evolution.tree.SamplingDate" taxon="@Metalopex_macconnelli_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_126" spec="sa.evolution.tree.SamplingDate" taxon="@Metalopex_macconnelli_last" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_127" spec="sa.evolution.tree.SamplingDate" taxon="@Metalopex_merriami_first" lower="10.3" upper="13.6"/>
+            <samplingDates id="samplingDate_128" spec="sa.evolution.tree.SamplingDate" taxon="@Metalopex_merriami_last" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_129" spec="sa.evolution.tree.SamplingDate" taxon="@Metatomarctus_canavus_first" lower="15.97" upper="20.44"/>
+            <samplingDates id="samplingDate_130" spec="sa.evolution.tree.SamplingDate" taxon="@Metatomarctus_canavus_last" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_131" spec="sa.evolution.tree.SamplingDate" taxon="@Microtomarctus_conferta_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_132" spec="sa.evolution.tree.SamplingDate" taxon="@Microtomarctus_conferta_last" lower="10.3" upper="15.97"/>
+            <samplingDates id="samplingDate_133" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_brachypus_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_134" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_brachypus_last" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_135" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_fricki_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_136" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_fricki_last" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_137" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_iamonensis_first" lower="15.97" upper="23.03"/>
+            <samplingDates id="samplingDate_138" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_iamonensis_last" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_139" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_renjiei_first" lower="33.3" upper="33.9"/>
+            <samplingDates id="samplingDate_140" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_renjiei_last" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_141" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_sesnoni_first" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_142" spec="sa.evolution.tree.SamplingDate" taxon="@Osbornodon_sesnoni_last" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_143" spec="sa.evolution.tree.SamplingDate" taxon="@Otarocyon_cooki_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_144" spec="sa.evolution.tree.SamplingDate" taxon="@Otarocyon_cooki_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_145" spec="sa.evolution.tree.SamplingDate" taxon="@Otarocyon_macdonaldi_first" lower="33.3" upper="37.2"/>
+            <samplingDates id="samplingDate_146" spec="sa.evolution.tree.SamplingDate" taxon="@Otarocyon_macdonaldi_last" lower="33.3" upper="33.9"/>
+            <samplingDates id="samplingDate_147" spec="sa.evolution.tree.SamplingDate" taxon="@Oxetocyon_cuspidatus_first" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_148" spec="sa.evolution.tree.SamplingDate" taxon="@Paracynarctus_kelloggi_first" lower="15.97" upper="23.03"/>
+            <samplingDates id="samplingDate_149" spec="sa.evolution.tree.SamplingDate" taxon="@Paracynarctus_kelloggi_last" lower="5.333" upper="15.97"/>
+            <samplingDates id="samplingDate_150" spec="sa.evolution.tree.SamplingDate" taxon="@Paracynarctus_sinclairi_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_151" spec="sa.evolution.tree.SamplingDate" taxon="@Paraenhydrocyon_josephi_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_152" spec="sa.evolution.tree.SamplingDate" taxon="@Paraenhydrocyon_josephi_last" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_153" spec="sa.evolution.tree.SamplingDate" taxon="@Paraenhydrocyon_robustus_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_154" spec="sa.evolution.tree.SamplingDate" taxon="@Paraenhydrocyon_wallovianus_first" lower="23.03" upper="28.1"/>
+            <samplingDates id="samplingDate_155" spec="sa.evolution.tree.SamplingDate" taxon="@Paraenhydrocyon_wallovianus_last" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_156" spec="sa.evolution.tree.SamplingDate" taxon="@Paratomarctus_euthos_first" lower="10.3" upper="23.03"/>
+            <samplingDates id="samplingDate_157" spec="sa.evolution.tree.SamplingDate" taxon="@Paratomarctus_euthos_last" lower="4.9" upper="13.6"/>
+            <samplingDates id="samplingDate_158" spec="sa.evolution.tree.SamplingDate" taxon="@Paratomarctus_temerarius_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_159" spec="sa.evolution.tree.SamplingDate" taxon="@Paratomarctus_temerarius_last" lower="4.9" upper="13.6"/>
+            <samplingDates id="samplingDate_160" spec="sa.evolution.tree.SamplingDate" taxon="@Philotrox_condoni_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_161" spec="sa.evolution.tree.SamplingDate" taxon="@Philotrox_condoni_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_162" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_achoros_first" lower="23.03" upper="25"/>
+            <samplingDates id="samplingDate_163" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_annectens_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_164" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_latidens_first" lower="30.8" upper="33.3"/>
+            <samplingDates id="samplingDate_165" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_latidens_last" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_166" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_leucosteus_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_167" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_leucosteus_last" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_168" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_mariae_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_169" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_marslandensis_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_170" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_minor_first" lower="24.8" upper="30.8"/>
+            <samplingDates id="samplingDate_171" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_minor_last" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_172" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_multicuspus_first" lower="20.43" upper="24.8"/>
+            <samplingDates id="samplingDate_173" spec="sa.evolution.tree.SamplingDate" taxon="@Phlaocyon_yatkolai_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_174" spec="sa.evolution.tree.SamplingDate" taxon="@Prohesperocyon_wilsoni_first" lower="33.9" upper="37.2"/>
+            <samplingDates id="samplingDate_175" spec="sa.evolution.tree.SamplingDate" taxon="@Protepicyon_raki_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_176" spec="sa.evolution.tree.SamplingDate" taxon="@Protomarctus_optatus_first" lower="15.97" upper="20.44"/>
+            <samplingDates id="samplingDate_177" spec="sa.evolution.tree.SamplingDate" taxon="@Protomarctus_optatus_last" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_178" spec="sa.evolution.tree.SamplingDate" taxon="@Psalidocyon_marianae_first" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_179" spec="sa.evolution.tree.SamplingDate" taxon="@Rhizocyon_oregonensis_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_180" spec="sa.evolution.tree.SamplingDate" taxon="@Sunkahetanka_geringensis_first" lower="26.3" upper="30.8"/>
+            <samplingDates id="samplingDate_181" spec="sa.evolution.tree.SamplingDate" taxon="@Sunkahetanka_geringensis_last" lower="20.43" upper="30.8"/>
+            <samplingDates id="samplingDate_182" spec="sa.evolution.tree.SamplingDate" taxon="@Tephrocyon_rurestris_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_183" spec="sa.evolution.tree.SamplingDate" taxon="@Tephrocyon_rurestris_last" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_184" spec="sa.evolution.tree.SamplingDate" taxon="@Tomarctus_brevirostris_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_185" spec="sa.evolution.tree.SamplingDate" taxon="@Tomarctus_brevirostris_last" lower="11.608" upper="15.97"/>
+            <samplingDates id="samplingDate_186" spec="sa.evolution.tree.SamplingDate" taxon="@Tomarctus_hippophaga_first" lower="15.97" upper="20.43"/>
+            <samplingDates id="samplingDate_187" spec="sa.evolution.tree.SamplingDate" taxon="@Tomarctus_hippophaga_last" lower="13.6" upper="15.97"/>
+            <samplingDates id="samplingDate_188" spec="sa.evolution.tree.SamplingDate" taxon="@Urocyon_cinereoargenteus_first" lower="1.806" upper="2.588"/>
+            <samplingDates id="samplingDate_190" spec="sa.evolution.tree.SamplingDate" taxon="@Urocyon_citrinus_first" lower="1.806" upper="2.588"/>
+            <samplingDates id="samplingDate_191" spec="sa.evolution.tree.SamplingDate" taxon="@Urocyon_galushai_first" lower="1.8" upper="4.9"/>
+            <samplingDates id="samplingDate_192" spec="sa.evolution.tree.SamplingDate" taxon="@Urocyon_minicephalus_first" lower="0.3" upper="1.8"/>
+            <samplingDates id="samplingDate_193" spec="sa.evolution.tree.SamplingDate" taxon="@Urocyon_webbi_first" lower="4.9" upper="10.3"/>
+            <samplingDates id="samplingDate_194" spec="sa.evolution.tree.SamplingDate" taxon="@Vulpes_stenognathus_first" lower="4.9" upper="13.6"/>
+            <samplingDates id="samplingDate_195" spec="sa.evolution.tree.SamplingDate" taxon="@Vulpes_stenognathus_last" lower="0.3" upper="1.8"/>
+            <samplingDates id="samplingDate_196" spec="sa.evolution.tree.SamplingDate" taxon="@Xenocyon_falconeri_first" lower="1.806" upper="2.588"/>
+            <samplingDates id="samplingDate_197" spec="sa.evolution.tree.SamplingDate" taxon="@Xenocyon_falconeri_last" lower="0.0117" upper="2.588"/>
+            <samplingDates id="samplingDate_198" spec="sa.evolution.tree.SamplingDate" taxon="@Xenocyon_texanus_first" lower="0.63" upper="1.8"/>
+        </operator>
+        <logger id="tracelog" spec="Logger" fileName="output/$(filebase).log" logEvery="1e+06" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="diversificationRateFBD.t:tree"/>
+            <log idref="turnoverFBD.t:tree"/>
+            <log idref="samplingProportionFBD.t:tree"/>
+            <log idref="originFBD.t:tree"/>
+            <log idref="treeLikelihood.morpho2"/>
+            <log idref="treeLikelihood.morpho3"/>
+            <log idref="treeLikelihood.morpho4"/>
+            <log idref="treeLikelihood.morpho5"/>
+            <log idref="mutationRate.s:morpho2"/>
+            <log idref="mutationRate.s:morpho3"/>
+            <log idref="mutationRate.s:morpho4"/>
+            <log idref="mutationRate.s:morpho5"/>
+            <log idref="ucldMean.c:morpho"/>
+            <log idref="ucldStdev.c:morpho"/>
+            <log id="rate.c:morpho" spec="beast.base.evolution.RateStatistic" branchratemodel="@RelaxedClock.c:morpho" tree="@Tree.t:tree" />
+            <log idref="srfbd"/>
+            <log id="SACountFBD.t:tree" spec="sr.evolution.tree.SampledAncestorLogger" tree="@Tree.t:tree" />
+            <log id="treeHeight.t:tree" spec="beast.base.evolution.tree.TreeHeightLogger" tree="@Tree.t:tree" />
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1e+06">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:tree" spec="Logger" fileName="output/$(filebase).trees" logEvery="1e+06" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:tree" spec="sr.evolution.tree.TreeWithMetadataLogger" branchratemodel="@RelaxedClock.c:morpho" tree="@Tree.t:tree"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+</beast>

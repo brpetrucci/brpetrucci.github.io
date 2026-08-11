@@ -1,0 +1,18 @@
+{% if page.downloads %}
+  <div class="notice--primary" markdown="0">
+
+    {% for group in page.downloads %}
+      <h4>{{ group.group }}</h4>
+      <ul>
+        {% for file in group.files %}
+          <li>
+            <a href="{{ file.path | relative_url }}" class="btn btn--primary" download>
+              <i class="fa fa-fw fa-download" aria-hidden="true"></i>
+              {{ file.label }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+{% endif %}

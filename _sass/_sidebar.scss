@@ -49,14 +49,26 @@
   }
 }
 
+.tutorial__body {
+  @include breakpoint($large) {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+  }
+
+  .page__content {
+    min-width: 0;
+  }
+}
+
 .sidebar__right {
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    position: relative;
-    float: right;
+    position: sticky;
+    top: 2em;
+    flex-shrink: 0;
     width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
@@ -235,3 +247,4 @@
     }
   }
 }
+
