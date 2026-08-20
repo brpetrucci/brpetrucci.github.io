@@ -530,9 +530,9 @@ yet but want to run our results, you can download the result files from
 my analysis:
 
 [Log file](/files/tutorials/srfbd/results/srfbd_first.log){: .btn
-.btn--primary download="srfbd_first.log"} [Tree
-file](/files/tutorials/srfbd/results/srfbd_first.trees){: .btn
-.btn--primary download="srfbd_first.trees"} [MCC
+.btn--primary download="srfbd_first.log"} [Tree file
+(compressed)](/files/tutorials/srfbd/results/srfbd_first.trees.zip){:
+.btn .btn--primary download="srfbd_first.trees.zip"} [MCC
 tree](/files/tutorials/srfbd/results/srfbd_first_mcc.nex){: .btn
 .btn--primary download="srfbd_first_mcc.nex"}
 

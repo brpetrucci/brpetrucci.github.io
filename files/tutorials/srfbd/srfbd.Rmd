@@ -291,7 +291,7 @@ One thing to note about the trees we get as output from SRFBD is that besides be
 We will discuss the MCC tree further in our results below, so keep it in your back pocket! In case you haven't had time to run the full analysis yet but want to run our results, you can download the result files from my analysis:
 
 [Log file](/files/tutorials/srfbd/results/srfbd_first.log){: .btn .btn--primary download="srfbd_first.log"}
-[Tree file](/files/tutorials/srfbd/results/srfbd_first.trees){: .btn .btn--primary download="srfbd_first.trees"}
+[Tree file (compressed)](/files/tutorials/srfbd/results/srfbd_first.trees.zip){: .btn .btn--primary download="srfbd_first.trees.zip"}
 [MCC tree](/files/tutorials/srfbd/results/srfbd_first_mcc.nex){: .btn .btn--primary download="srfbd_first_mcc.nex"}
 
 ## Results
