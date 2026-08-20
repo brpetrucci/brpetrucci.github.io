@@ -67,29 +67,29 @@ history of canids.
   and Tracer. You will also need to install the `starbeast`,
   `BEASTlabs`, `SA`, and `feast` packages, either through BEAUti or
   package manager.
-- For details on installing BEAST2 in a cluster, see [this
-  README](https://github.com/plewis/deploy/blob/main/README.md) (scroll
-  down to the Setup for running on a cluster section).
+  - For details on installing BEAST2 in a cluster, see [this
+    README](https://github.com/plewis/deploy/blob/main/README.md)
+    (scroll down to the Setup for running on a cluster section).
 - [sRanges](https://github.com/jugne/stratigraphic-ranges) is the BEAST2
   packages containing the SRFBD implementation. Follow the installation
   instructions on the README. Note that `v0.1.1` is currently broken, so
   install
   [v0.1.0](https://github.com/jugne/stratigraphic-ranges/releases/tag/v0.1.0).
-- To install on a cluster, simply extract the `zip` file for the
-  respective release into the directory where you are keeping BEAST2
-  packages within your cluster, and rename the directory to `sRanges`.
+  - To install on a cluster, simply extract the `zip` file for the
+    respective release into the directory where you are keeping BEAST2
+    packages within your cluster, and rename the directory to `sRanges`.
 - [R](https://www.r-project.org/) will be used both for inference and
   post-processing. Since there is currently no BEAUti template for
   sRanges scripts, we will use the R scripts provided with this tutorial
   to build the .xml files.
-- R packages to download from CRAN (`install.packages("package_name")`):
-  `ape`, `coda`, `devtools`
-- [paleobuddy](https://github.com/brpetrucci/paleobuddy) is my
-  birth-death simulation package. It is currently the only package with
-  tools for reading and manipulating budding phylogenetic trees. The
-  latest version is not on CRAN, so make sure to install it from the
-  `development` branch with `devtools`
-  (`install_github("brpetrucci/paleobuddy@development")`).
+  - R packages to download from CRAN
+    (`install.packages("package_name")`): `ape`, `coda`, `devtools`
+  - [paleobuddy](https://github.com/brpetrucci/paleobuddy) is my
+    birth-death simulation package. It is currently the only package
+    with tools for reading and manipulating budding phylogenetic trees.
+    The latest version is not on CRAN, so make sure to install it from
+    the `development` branch with `devtools`
+    (`install_github("brpetrucci/paleobuddy@development")`).
 
 </div>
 
@@ -163,10 +163,10 @@ not used to the `xml` format. Lucky for you, I suffered so you don't
 need to! I wrote a few scripts to do the process for you. Here's a
 rundown:
 
-- `xml_writer.R` creates a ton of files that write the script proper. It
-  reads the user's preferences (laid out in `canidae_setup.R` or a file
-  like it) and writes each part of the `xml` for a complete SRFBD
-  analysis. It is certainly not encompassing of all the possible
+- `xml_writer.R` creates a ton of functions that write the script
+  proper. It reads the user's preferences (laid out in `canidae_setup.R`
+  or a file like it) and writes each part of the `xml` for a complete
+  SRFBD analysis. It is certainly not encompassing of all the possible
   variation you could have in an SRFBD analysis, however--only the
   specifics I have needed for my analyses in the past. Please feel free
   to contact me for any help modifying this (and any other file in this
@@ -209,39 +209,40 @@ distributions of our **parameters** given our **data**).
 
 - **SRFBD** models the construction of our phylogenetic tree proper
   using a birth-death-sampling model.
-- The data are the stratigraphic range of each canid species in our
-  analysis. If you open the `canidae_ranges.tsv` file, you will see the
-  times of first and last appearance for each species, including some
-  uncertainty.
-- The parameters are the speciation (`lambda`, $\lambda$), extinction
-  (`mu`, $\mu$), and fossil sampling (`psi`, $\psi$) rates, and the
-  origin of the process (*i.e.,* the time of speciation of the first
-  lineage in the tree). BEAST2 reparameterizes the rates into
-  diversification ($\lambda - \mu$), turnover ($\frac{\mu}{\lambda}$),
-  and sampling proportion ($\frac{\psi}{\mu+\psi}$), so these are the
-  parameters for which we need priors and operators. We are using fairly
-  standard priors for these, with hyperparameters chosen to represent
-  our prior expectations of canid evolution. Each of these will be
-  written as `parameterNameFBD.t:tree` in our scripts (*e.g.,*
-  `diversificationRateFBD.t:tree`).
+  - The data are the stratigraphic range of each canid species in our
+    analysis. If you open the `canidae_ranges.tsv` file, you will see
+    the times of first and last appearance for each species, including
+    some uncertainty.
+  - The parameters are the speciation (`lambda`, $\lambda$), extinction
+    (`mu`, $\mu$), and fossil sampling (`psi`, $\psi$) rates, and the
+    origin of the process (*i.e.,* the time of speciation of the first
+    lineage in the tree). BEAST2 reparameterizes the rates into
+    diversification ($\lambda - \mu$), turnover ($\frac{\mu}{\lambda}$),
+    and sampling proportion ($\frac{\psi}{\mu+\psi}$), so these are the
+    parameters for which we need priors and operators. We are using
+    fairly standard priors for these, with hyperparameters chosen to
+    represent our prior expectations of canid evolution. Each of these
+    will be written as `parameterNameFBD.t:tree` in our scripts (*e.g.,*
+    `diversificationRateFBD.t:tree`).
 - **MkV** models the evolution of the morphological characters within
   the underlying tree.
-- The data are the morphological characters scored for each species in
-  our analysis. `canidae_morpho.nex` shows the value of each of our 123
-  characters for each of our 121 species. Here we have 2, 3, 4, and 5
-  state characters. We have no invariant characters, so we must apply a
-  correction to the likelihood (hence the V in MkV). This is fairly
-  simple in BEAST2, and already assumed by our setup scripts. Most
-  available morphological matrices will exclude invariant characters.
-- The parameters for the MkV model depend on your desired clock model.
-  Here, we are using an uncorrelated lognormal clock, meaning the clock
-  (in simple terms, the speed of morphological transitions) in each
-  branch will be an independent draw from the same lognormal
-  distribution. We set a parameter for the standard deviation of that
-  distribution (`ucldStdev.c:morpho`), and a parameter for the mean of
-  drawn rates (`ucldMean.c:morpho`). For more details on the models
-  available in BEAST2, check out their
-  [tutorials](https://www.beast2.org/tutorials/).
+  - The data are the morphological characters scored for each species in
+    our analysis. `canidae_morpho.nex` shows the value of each of our
+    123 characters for each of our 121 species. Here we have 2, 3, 4,
+    and 5 state characters. We have no invariant characters, so we must
+    apply a correction to the likelihood (hence the V in MkV). This is
+    fairly simple in BEAST2, and already assumed by our setup scripts.
+    Most available morphological matrices will exclude invariant
+    characters.
+  - The parameters for the MkV model depend on your desired clock model.
+    Here, we are using an uncorrelated lognormal clock, meaning the
+    clock (in simple terms, the speed of morphological transitions) in
+    each branch will be an independent draw from the same lognormal
+    distribution. We set a parameter for the standard deviation of that
+    distribution (`ucldStdev.c:morpho`), and a parameter for the mean of
+    drawn rates (`ucldMean.c:morpho`). For more details on the models
+    available in BEAST2, check out their
+    [tutorials](https://www.beast2.org/tutorials/).
 
 In short, for each generation of our MCMC, the model will attempt to
 move one of our parameters, or the underlying budding phylogeny, and
