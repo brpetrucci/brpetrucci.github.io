@@ -39,6 +39,16 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .page__content p,
+  .page__content li,
+  .page__content dl {
+    font-size: 0.9em;
+  }
+}
+
+.csl-entry {
+  margin-bottom: 1em;
 }
 
 .page__title {

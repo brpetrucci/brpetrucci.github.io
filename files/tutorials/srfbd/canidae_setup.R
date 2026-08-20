@@ -4,11 +4,6 @@
 #########################################################
 
 ###
-# source xml writer
-
-# get base directory
-base_dir <- "/Users/petrucci/Documents/website/brpetrucci.github.io/files/tutorials/srfbd/"
-
 # source xml_writer.R
 source(paste0(base_dir, "xml_writer.R"))
 
@@ -16,22 +11,26 @@ source(paste0(base_dir, "xml_writer.R"))
 # write scripts
 
 # function to write scripts for a given setup
-scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
-  # header
+# can alter the specific priors, operators etc. within this function
+# and then use the arguments to create scripts with a specific MCMC setup
+scripts_setup <- function(n_scripts, n_gens, attach, 
+                          scripts_dir, log_every, store_every,
+                          suffix = "") {
+  # header and maps--templates needed for the script
   header <- readLines(paste0(base_dir, "header.xml"))
-  
-  # maps
   maps <- readLines(paste0(base_dir, "maps.xml"))
   
-  # data
+  # data--ranges and morphological matrix
+  # if we had DNA, we would also read it here
   ranges <- read.delim(paste0(base_dir, "data/canidae_ranges.tsv"))
   morpho <- read.nexus.data(paste0(base_dir, "data/canidae_morpho.nex"))
   
-  # rewrite polymorphisms
+  # rewrite polymorphisms--make sure they are written in the way BEAST2 expects
   morpho <- rewrite_polymorphisms(morpho)
   
-  # get morpho partitions data
+  # build morphological partitions in a BEAST2-readable way
   morpho_partitions <- morpho_partitions(morpho, ascertain = TRUE)
+  # we are partitioning by state number (2-5)
   
   # start partitions list
   partitions <- list()
@@ -67,7 +66,8 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
       ),
       threaded = FALSE)
     
-    # branch rate model only for the first partition
+    # we only add a branch rate model for the first partition
+    # all other ones just use this same clock
     if (i == 1) {
       partitions[[part_name]]$branchRateModel <- list(
         id = "RelaxedClock.c:morpho",
@@ -82,8 +82,13 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
   }
   
   # parameter list (with priors)
+  # parameters without a dist element will not have an explicit prior attached
   priors = list(
-    `mutationRate.s:morpho2` = list(
+    # mutation rates are moved by an operator, 
+    # but do not require their own prior
+    # if you had a strict clock model, you could 
+    # omit the mutation rate parameters
+    `mutationRate.s:morpho2` = list( 
       spec = "parameter.RealParameter",
       value = 1
     ),
@@ -124,6 +129,9 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
       mean = 9.67,
       offset = 37,
       init = 50
+      # we set an initial value much higher than the oldest fossil
+      # because drawing from the prior might lead to value that is 
+      # too low, leading to an analysis not starting
     ),
     `ucldMean.c:morpho` = list(
       dist = "LogNormal",
@@ -138,7 +146,8 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
       beta = 0.3819
     ))
   
-  # use number of taxa
+  # rate categories doesn't need a prior, but we need
+  # to calculate the total dimension (number of branches)
   priors <- append(priors, list(
     `rateCategories.c:morpho` = list(
       spec = "parameter.IntegerParameter",
@@ -147,10 +156,11 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
     )
   ))
   
-  # extra parameters we might need around the script
+  # extra parameters for the model
+  # extant sampling and probability of extinction when sampled
   extra_params <- c(rho = 5/36, removalProbability = 0)
   
-  # operators
+  # operators--just the default, nothing fancy
   operators <- list(
     FixMeanMutationRatesOperator = list(
       spec = "operator.kernel.BactrianDeltaExchangeOperator",
@@ -166,10 +176,15 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
           lower = 0,
           upper = 0,
           value = "76 36 7 4")
+        # number of characters with each number of states (2-5)
       )
     ))
+  
+  # add the operators for morphological evolution model parameters
   operators <- c(operators,
                  part_operators("morpho", partitions))
+  
+  # add the SRFBD operators
   operators <- append(operators, list(
     `originScalerFBD.t:tree` = list(
       spec = "ScaleOperator",
@@ -190,26 +205,7 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
       spec = "ScaleOperator",
       parameter = "@samplingProportionFBD.t:tree",
       weight = 10
-    )))
-  
-  
-  # logs
-  logs <- c(list(
-    `posterior` = "posterior",
-    `likelihood` = "likelihood",
-    `prior` = "prior",
-    `diversificationRateFBD.t:tree` = "diversificationRateFBD.t:tree",
-    `turnoverFBD.t:tree` = "turnoverFBD.t:tree",
-    `samplingProportionFBD.t:tree` = "samplingProportionFBD.t:tree",
-    `originFBD.t:tree` = "originFBD.t:tree"),
-    make_logs("treeLikelihood.", names(partitions)),
-    make_logs("mutationRate.s:", paste0("morpho", 2:5)),
-    make_logs("ucldMean.c:", "morpho"),
-    make_logs("ucldStdev.c:", "morpho"),
-    make_logs("rate.c:", "morpho"))
-  
-  # srfbd operators
-  operators <- append(operators, list(
+    ),
     `SRTreeRootScaler` = list(
       spec = "SAScaleOperator",
       rootOnly = "true",
@@ -242,11 +238,23 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
       scaleFactor = 0.95,
       tree = "@Tree.t:tree",
       weight = 3
-    )
-  ))
+    )))
   
-  # srfbd logs
-  logs <- c(logs, list(
+  # parameters you'd like to log
+  logs <- c(list(
+    `posterior` = "posterior",
+    `likelihood` = "likelihood",
+    `prior` = "prior",
+    `diversificationRateFBD.t:tree` = "diversificationRateFBD.t:tree",
+    `turnoverFBD.t:tree` = "turnoverFBD.t:tree",
+    `samplingProportionFBD.t:tree` = "samplingProportionFBD.t:tree",
+    `originFBD.t:tree` = "originFBD.t:tree"),
+    make_logs("treeLikelihood.", names(partitions)),
+    make_logs("mutationRate.s:", paste0("morpho", 2:5)),
+    make_logs("ucldMean.c:", "morpho"),
+    make_logs("ucldStdev.c:", "morpho"),
+    make_logs("rate.c:", "morpho"),
+    list(
     `srfbd` = "srfbd",
     `SACountFBD.t:tree` = list(
       spec = "sr.evolution.tree.SampledAncestorLogger",
@@ -258,7 +266,10 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
     )
   ))
   
-  # get script name
+  # set script name
+  # suffix is here in case you want to set up analyses with an extra
+  # little name at the end, e.g. srfbd_first_strict.xml if you want
+  # to test a strict clock, suffix = "strict"
   script_name <- paste0("srfbd_", attach, 
                         ifelse(suffix != "", "_", ""), suffix)
   
@@ -267,18 +278,8 @@ scripts_setup <- function(n_scripts, n_gens, attach, suffix = "") {
                   priors, operators, logs,
                   extra_params, ranges, mol = NULL, morpho,
                   partitions, attach,
-                  n_gens, 1000000, 1000000,
-                  paste0(base_dir, "scripts/"),
+                  n_gens, log_every, store_every,
+                  scripts_dir,
                   script_name)
   
 }
-
-# set script number
-n_scripts <- 5
-
-# number of generations
-n_gens <- 1000000000
-
-# write scripts
-scripts_setup(n_scripts, n_gens, "both")
-scripts_setup(n_scripts, n_gens, "first")

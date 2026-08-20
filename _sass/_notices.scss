@@ -20,6 +20,13 @@
   border-radius: $border-radius;
   box-shadow: 0 1px 1px rgba($notice-color, 0.25);
 
+  /* pin nested text to the notice's own size, !important like the rule
+     above -- otherwise page-level font-size rules (e.g. the tutorial-wide
+     text reduction) apply on top of this box's own reduction and compound */
+  p, li, dl {
+    font-size: 1em !important;
+  }
+
   h4 {
     margin-top: 0 !important; /* override*/
     margin-bottom: 0.75em;
@@ -52,6 +59,11 @@
   }
 
   code {
+    /* cancel compounding: this box is already font-size: $type-size-6,
+       and inline code elsewhere gets another $type-size-6 relative to
+       its parent -- without this, code inside a notice ends up at
+       $type-size-6 squared (tiny) instead of matching code size elsewhere */
+    font-size: 1em;
     background-color: mix(#fff, $notice-color, 95%)
   }
 
@@ -96,4 +108,24 @@
 
 .notice--danger {
   @include notice($danger-color);
+}
+
+/* Details/dropdown notice */
+
+.notice--details {
+  @include notice($details-color);
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: mix(#000, $details-color, 30%);
+
+    &:hover {
+      color: $details-color;
+    }
+  }
+
+  &[open] summary {
+    margin-bottom: 0.75em;
+  }
 }
