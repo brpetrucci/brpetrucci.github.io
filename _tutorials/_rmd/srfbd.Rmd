@@ -95,10 +95,10 @@ You also need to install and attach the packages discussed above.
 install.packages(c("ape", "coda", "devtools"))
 
 # install the paleobuddy development branch
-devtools::install_github("brpetrucci/paleobuddy@development")
+pak::pak("brpetrucci/paleobuddy@development")
 ```
 
-I set this chunk to not run since I have already installed these packages, but make sure to run it! We can then attach them
+We can then attach them.
 
 ```{r message=FALSE}
 # attach packages
@@ -145,7 +145,7 @@ Now let's write some `xml` scripts! Here we need to consider a few questions abo
 
 Now that we understand the arguments, we just need to source the setup scripts, set values for the arguments, and run the `scripts_setup` function!
 
-```{r}
+```{r eval = FALSE}
 # source your setup script
 source(paste0(base_dir, "canidae_setup.R"))
 # xml_writer.R is already sourced by the setup script
