@@ -35,6 +35,36 @@ scripts_setup <- function(n_scripts, n_gens, attach,
   # start partitions list
   partitions <- list()
   
+  # if you have DNA in your dataset as well, you can
+  # start your partition with the DNA parameters
+  # partitions <- list(DNA = list(
+  #   data = "mol",
+  #   filter = paste0("1-", length(mol[[1]])),
+  #   ascertained = "false",
+  #   dataType = NULL,
+  #   siteModel = list(
+  #     id = "SiteModel.s:mol",
+  #     gammaCategoryCount = 0,
+  #     shape = 1,
+  #     mutationRate = 1,
+  #     proportionInvariant = 0,
+  #     substModel = list(
+  #       model = "jc"
+  #     )),
+  #   branchRateModel = list(
+  #     id = "RelaxedClock.c:DNA",
+  #     model = "ucld",
+  #     clock.rate = "@clock.c:DNA",
+  #     rateCategories = "@rateCategories.c:DNA",
+  #     dist = "LogNormal",
+  #     M = 1,
+  #     S = "@ucldStdev.c:DNA"
+  #   ),
+  #   threaded = TRUE))
+  # this is an example for JC+UCLN
+  # of course then you'll need to add priors and operators for
+  # these parameters as well
+  
   # add partitions for morpho
   for (i in 1:length(morpho_partitions)) {
     # get this partition
@@ -62,6 +92,8 @@ scripts_setup <- function(n_scripts, n_gens, attach,
         proportionInvariant = 0,
         substModel = list(
           model = "LewisMK"
+          # currently xml_writer accommodates LewisMK for morphology,
+          # and Jukes-Cantor and HKY for molecular data
         )
       ),
       threaded = FALSE)

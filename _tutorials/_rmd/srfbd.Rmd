@@ -236,7 +236,7 @@ for (i in 1:n_scripts) {
   # the +1 is required since BEAST2 records the initial state
   
   # finally, we can use coda to check the effective sample size
-  ess <- effectiveSize(log)
+  ess <- coda::effectiveSize(log)
   
   # add to our data frame
   ess_df[i, ] <- ess
