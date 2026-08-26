@@ -77,6 +77,26 @@
   }
 }
 
+// Separate from .sidebar__right on purpose: that class is also used by the
+// plain {% include toc %} component (e.g. /terms/) in a non-flex context.
+// This one is specific to the tutorial layout's flex-based TOC column,
+// which now sits first (left) in .tutorial__body rather than last (right).
+.tutorial-toc {
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    position: sticky;
+    top: 2em;
+    flex-shrink: 0;
+    width: $right-sidebar-width-narrow;
+    z-index: 10;
+  }
+
+  @include breakpoint($x-large) {
+    width: $right-sidebar-width;
+  }
+}
+
 /*
    Author profile and links
    ========================================================================== */
