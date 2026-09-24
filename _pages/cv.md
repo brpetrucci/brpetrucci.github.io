@@ -13,6 +13,6 @@ redirect_from:
 
 <p><a href="{{ cv_pdf }}" download>Download PDF</a> · <a href="{{ cv_pdf }}" target="_blank" rel="noopener">Open in a new tab</a></p>
 
-<object data="{{ cv_pdf }}" type="application/pdf" style="width: 100%; height: 90vh; border: 1px solid #ddd;">
+<object class="fitvidsignore" data="{{ cv_pdf }}" type="application/pdf" style="width: 100%; height: 90vh; border: 1px solid #ddd;">
   <p>Your browser can't display the PDF here. <a href="{{ cv_pdf }}">Click here to view my CV.</a></p>
 </object>
