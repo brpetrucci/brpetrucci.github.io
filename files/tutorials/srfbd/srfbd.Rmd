@@ -86,7 +86,7 @@ data_dir <- paste0(base_dir, "data/")
 out_dir <- paste0(base_dir, "output/")
 ```
 
-We will use these directories to write our scripts, and then analyze the output later. Of course you could simply 
+We will use these directories to write our scripts, and then analyze the output later. Of course you could simply set your working directory to the directory with these files using RStudio, but I generally don't like doing so.
 
 You also need to install and attach the packages discussed above.
 

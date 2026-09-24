@@ -54,4 +54,4 @@ I will also conduct a short simulation study to gain an objective understanding 
 
 **Related publications**
 
-- In progress... but check out my talk at Evolution 2026, Room 22, 5:15PM!
+- In progress... but check out my talk at the [Palaeoverse lecture series](https://www.youtube.com/watch?v=JBfijmmg73Q&t=2028s)!
