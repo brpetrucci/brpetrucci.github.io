@@ -72,9 +72,7 @@ history of canids.
     (scroll down to the Setup for running on a cluster section).
 - [sRanges](https://github.com/jugne/stratigraphic-ranges) is the BEAST2
   packages containing the SRFBD implementation. Follow the installation
-  instructions on the README. Note that `v0.1.1` is currently broken, so
-  install
-  [v0.1.0](https://github.com/jugne/stratigraphic-ranges/releases/tag/v0.1.0).
+  instructions on the README.
   - To install on a cluster, simply extract the `zip` file for the
     respective release into the directory where you are keeping BEAST2
     packages within your cluster, and rename the directory to `sRanges`.
@@ -598,7 +596,7 @@ abline(v = mean(log$originFBD), col = "#DF536B", lwd = 2)
 curve(dexp(x - 37, 1 / 9.67), add = TRUE, col = "#2297E6", lwd = 2)
 ```
 
-![](/images/tutorials/srfbd/unnamed-chunk-6-1.svg)<!-- -->
+![](/images/tutorials/srfbd/unnamed-chunk-7-1.svg)<!-- -->
 
 To better visualize things, I added a red line marking the posterior
 mean, and a blue line showing the prior distribution. You can see that
@@ -658,7 +656,7 @@ hist(psi,
      probability = TRUE)
 ```
 
-![](/images/tutorials/srfbd/unnamed-chunk-7-1.svg)<!-- -->
+![](/images/tutorials/srfbd/unnamed-chunk-8-1.svg)<!-- -->
 
 It seems like we would expect, on average, a speciation event every
 ~3my, an extinction event every ~4my, and a sampling event every ~2my,
@@ -681,7 +679,7 @@ hist(log$SACountFBD,
      xlab = "Number of sampled ancestor species")
 ```
 
-![](/images/tutorials/srfbd/unnamed-chunk-8-1.svg)<!-- -->
+![](/images/tutorials/srfbd/unnamed-chunk-9-1.svg)<!-- -->
 
 It seems like we have a median of around 17 species being sampled
 ancestors, which is reasonably low (14%). In my tests of SRFBD and
@@ -737,7 +735,7 @@ trees <- read.nexus.buddPhylo(paste0(out_dir, "srfbd_first.trees"))
 plot(trees[[1]], show.tip.label = FALSE)
 ```
 
-![](/images/tutorials/srfbd/unnamed-chunk-9-1.svg)<!-- -->
+![](/images/tutorials/srfbd/unnamed-chunk-10-1.svg)<!-- -->
 
 ``` r
 # read our mcc tree
@@ -968,7 +966,7 @@ hist(div_times,
      xlab = "Time (mya)")
 ```
 
-![](/images/tutorials/srfbd/unnamed-chunk-14-1.svg)<!-- -->
+![](/images/tutorials/srfbd/unnamed-chunk-15-1.svg)<!-- -->
 
 We quickly checked the time of the node representing the MRCA of the
 clade excluding `hesperocyon_gregarius_first` with the

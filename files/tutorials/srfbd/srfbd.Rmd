@@ -59,7 +59,7 @@ We will then use R to analyze the results of the SRFBD analysis, and gain some i
 
 - [BEAST2](https://beast2.org) is the only software for which the SRFBD model is currently implemented. Make sure to download all the auxiliary programs, specifically BEAUti, TreeAnnotator, LogCombiner, and Tracer. You will also need to install the `starbeast`, `BEASTlabs`, `SA`, and `feast` packages, either through BEAUti or package manager.
     - For details on installing BEAST2 in a cluster, see [this README](https://github.com/plewis/deploy/blob/main/README.md) (scroll down to the Setup for running on a cluster section). 
-- [sRanges](https://github.com/jugne/stratigraphic-ranges) is the BEAST2 packages containing the SRFBD implementation. Follow the installation instructions on the README. Note that `v0.1.1` is currently broken, so install [v0.1.0](https://github.com/jugne/stratigraphic-ranges/releases/tag/v0.1.0).
+- [sRanges](https://github.com/jugne/stratigraphic-ranges) is the BEAST2 packages containing the SRFBD implementation. Follow the installation instructions on the README.
     - To install on a cluster, simply extract the `zip` file for the respective release into the directory where you are keeping BEAST2 packages within your cluster, and rename the directory to `sRanges`.
 - [R](https://www.r-project.org/) will be used both for inference and post-processing. Since there is currently no BEAUti template for sRanges scripts, we will use the R scripts provided with this tutorial to build the .xml files.
     - R packages to download from CRAN (`install.packages("package_name")`): `ape`, `coda`, `devtools`
@@ -203,6 +203,11 @@ And that's all! One thing to point out is that BEAST2 will then run this analysi
 Once your analyses are done running (they took 2-4 days in my cluster, but that might vary), we then need to test them for convergence, and combine them into one aggregate posterior sample. Optionally, you might also want to obtain a summary tree for your analysis. Let's go through the commands for each of these steps below.
 
 First, let's test convergence. Most researchers would use the Tracer software for this, and BEAST2 has [a great tutorial](https://beast.community/analysing_beast_output) for doing just that. I recommend you check your output with Tracer, but here I will present an alternative way to check convergence using the R package `coda`.
+
+```{r echo=FALSE}
+# defined here too, since the script-writing chunk above is not evaluated
+n_scripts <- 4
+```
 
 We will read each of our log files into R, use `coda` to check their effective sample size (ESS) with `effectiveSize`, and ensure we have a good effective sample size for each of them. We will apply a 50% burnin, but feel free to check how things change by changing the `burnin` argument below.
 
